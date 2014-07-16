@@ -52,3 +52,7 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# JG Added
+.DS_Store
+1_db_build/**.txt
+1_db_build/**.csv
