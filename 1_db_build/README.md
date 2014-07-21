@@ -39,8 +39,8 @@ We also downloaded and imported all five of QCEW's look-up tables: [Industries](
 
 The [get_cew_data.py](https://github.com/gordonje/deadly_work/blob/master/1_db_build/get_cew_data.py) script in this repo will import the CEW into any database on your local server. This script won't download the files for you. Rather, you'll need to download, unzip and store them in 'deadly_work/1_db_build/data/'. Again, you must have the [dependencies](https://github.com/gordonje/deadly_work#dependencies) installed, and you'll be prompted for the database's name, your PostgreSQL username and password.
 
-Joining Fatality and Employment
--------------------------------
+Joining Fatality and Employment Data
+------------------------------------
 
 We started with the relevant look-up tables.
 
