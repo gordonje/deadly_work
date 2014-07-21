@@ -6,7 +6,6 @@ AS
 		, industry_code
 		, COUNT(*) as years_count
 		, SUM(estabs) as estabs_sum
-		-- get this without suppression
 		, SUM(emplvl) as emplvl_sum
 		, SUM(fatals) as fatals_sum
 		, CASE 
