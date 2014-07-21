@@ -6,11 +6,6 @@ AS
 		, industries.cew_code as industry_code
 		, annual_averages.year
 		, cfoi_data.fatals
--- in cases where no fatalities were reported, we assume there were no fatalities
-		-- , CASE 
-		-- 		WHEN cfoi_data.fatals IS NULL THEN 0
-		-- 		ELSE cfoi_data.fatals
-		-- 	END as fatals
 		, annual_averages.annual_avg_emplvl as emplvl
 		, annual_averages.annual_avg_estabs_count as estabs
 		, annual_averages.total_annual_wages
@@ -25,23 +20,26 @@ AS
 			END as fatals_rate
 	FROM (
 			SELECT 
-				  industry_code
-				, area_fips
+				  area_fips
+				, industry_code
 				, year 
 				, SUM(annual_avg_estabs_count) as annual_avg_estabs_count
 				, SUM(annual_avg_emplvl) as annual_avg_emplvl
-				, sum(total_annual_wages) as total_annual_wages
-				, sum(taxable_annual_wages) as taxable_annual_wages
-				, sum(annual_contributions) as annual_contributions
-				, sum(annual_avg_wkly_wage) as annual_avg_wkly_wage
-				, sum(avg_annual_pay) as avg_annual_pay
+				, SUM(total_annual_wages) as total_annual_wages
+				, SUM(taxable_annual_wages) as taxable_annual_wages
+				, SUM(annual_contributions) as annual_contributions
+				, SUM(annual_avg_wkly_wage) as annual_avg_wkly_wage
+				, SUM(avg_annual_pay) as avg_annual_pay
 			FROM cew.annual_averages
 -- we sum for non-overlapping sectors: Private and Government (Local, State, Federal and International)
 			WHERE own_code >= 1
 			AND own_code <= 5
+-- also, narrow to the state and industry aggregation level
+			AND agglvl_code >= 55
+			AND agglvl_code <= 58
 			GROUP BY 
-				  industry_code
-				, area_fips
+				  area_fips
+				, industry_code
 				, year
 		) AS annual_averages
 	JOIN industries

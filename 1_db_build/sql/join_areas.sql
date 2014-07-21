@@ -23,9 +23,9 @@ SET
 	, cfoi_name = 'New York State and New York City'
 WHERE cew_code = '36000';
 
--- add a record for the national totals
--- INSERT INTO combined.areas (cew_code, cew_name, cfoi_code, cfoi_name)
--- VALUES ('US000', 'U.S. TOTAL', 'N00', 'All U.S.')
+-- manual map Puerto Rico
+INSERT INTO areas (cew_code, cew_name, cfoi_code, cfoi_name)
+VALUES ('72000', 'Puerto Rico -- Statewide', 'S43', 'Puerto Rico');
 
 -- 
 CREATE INDEX areas_cew_code_ind ON areas (cew_code);

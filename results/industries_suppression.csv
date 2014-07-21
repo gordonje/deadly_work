@@ -1,0 +1,1243 @@
+industry_code,industry,national_fatals_total,states_fatals_sum,pct_coverage,all_states_count,fatal_states_count
+11116X,Rice Farming,10,0,0,7,
+11131X,Orange Groves,4,0,0,5,
+111991,Sugar Beet Farming,3,0,0,9,
+11231X,Chicken Egg Production,4,0,0,35,
+11293X,Fur-Bearing Animal And Rabbit Production,1,0,0,10,
+11299X,All Other Animal Production,17,0,0,47,
+114119,Other Marine Fishing,5,0,0,4,
+11421X,Hunting And Trapping,1,0,0,29,
+1142XX,Hunting And Trapping,1,0,0,29,
+212319,Other Crushed And Broken Stone Mining And Quarrying,3,0,0,37,
+213113,Support Activities For Coal Mining,8,0,0,24,
+236117,New Housing Operative Builders,8,0,0,52,
+238121,Residential Structural Steel And Precast Concrete Contractors,7,0,0,50,
+238132,Nonresidential Framing Contractors,21,0,0,51,
+238191,"Other Residential Foundation, Structure, And Building Exterior Contractors",6,0,0,50,
+238192,"Other Nonresidential Foundation, Structure, And Building Exterior Contractors",20,0,0,51,
+238331,Residential Flooring Contractors,8,0,0,51,
+238391,Other Residential Building Finishing Contractors,5,0,0,52,
+311119,Other Animal Food Manufacturing,44,0,0,40,
+311222,Soybean Processing,1,0,0,15,
+31123X,Breakfast Cereal Manufacturing,3,0,0,10,
+311411,"Frozen Fruit, Juice, And Vegetable Manufacturing",3,0,0,17,
+31141X,Frozen Food Manufacturing,3,0,0,37,
+311511,Fluid Milk Manufacturing,15,0,0,37,
+31151X,Dairy Product (Except Frozen) Manufacturing,33,0,0,39,
+3115XX,Dairy Product Manufacturing,46,0,0,49,
+311613,Rendering And Meat Byproduct Processing,9,0,0,25,
+311919,Other Snack Food Manufacturing,3,0,0,28,
+311991,Perishable Prepared Food Manufacturing,6,0,0,41,
+3141XX,Textile Furnishings Mills,3,0,0,51,
+3149XX,Other Textile Product Mills,3,0,0,51,
+314XXX,Textile Product Mills,11,0,0,52,
+3152XX,Cut And Sew Apparel Manufacturing,3,0,0,49,
+315XXX,Apparel Manufacturing,10,0,0,52,
+31611X,Leather And Hide Tanning And Finishing,3,0,0,27,
+3161XX,Leather And Hide Tanning And Finishing,3,0,0,27,
+316XXX,Leather And Allied Product Manufacturing,3,0,0,47,
+321114,Wood Preservation,3,0,0,42,
+321211,Hardwood Veneer And Plywood Manufacturing,4,0,0,29,
+321219,Reconstituted Wood Product Manufacturing,3,0,0,26,
+321918,Other Millwork (Including Flooring),3,0,0,44,
+322211,Corrugated And Solid Fiber Box Manufacturing,13,0,0,42,
+322215,Nonfolding Sanitary Food Container Manufacturing,1,0,0,11,
+322222,Coated And Laminated Paper Manufacturing,3,0,0,30,
+322232,Envelope Manufacturing,4,0,0,24,
+32229X,Other Converted Paper Product Manufacturing,3,0,0,38,
+323110,Commercial Lithographic Printing,18,0,0,52,
+323114,Quick Printing,3,0,0,52,
+324199,All Other Petroleum And Coal Products Manufacturing,3,0,0,13,
+32512X,Industrial Gas Manufacturing,3,0,0,38,
+325132,Synthetic Organic Dye And Pigment Manufacturing,1,0,0,9,
+325188,All Other Basic Inorganic Chemical Manufacturing,3,0,0,35,
+325199,All Other Basic Organic Chemical Manufacturing,3,0,0,38,
+325314,Fertilizer (Mixing Only) Manufacturing,6,0,0,41,
+325412,Pharmaceutical Preparation Manufacturing,9,0,0,43,
+32541X,Pharmaceutical And Medicine Manufacturing,14,0,0,48,
+3254XX,Pharmaceutical And Medicine Manufacturing,14,0,0,48,
+32551X,Paint And Coating Manufacturing,3,0,0,41,
+3255XX,"Paint, Coating, And Adhesive Manufacturing",4,0,0,44,
+32561X,Soap And Cleaning Compound Manufacturing,3,0,0,44,
+32562X,Toilet Preparation Manufacturing,6,0,0,43,
+3256XX,"Soap, Cleaning Compound, And Toilet Preparation Manufacturing",18,0,0,49,
+326113,Unlaminated Plastics Film And Sheet (Except Packaging) Manufacturing,3,0,0,36,
+32611X,Plastics Packaging Materials And Unlaminated Film And Sheet Manufacturing,7,0,0,45,
+326122,Plastics Pipe And Pipe Fitting Manufacturing,4,0,0,40,
+32612X,"Plastics Pipe, Pipe Fitting, And Unlaminated Profile Shape Manufacturing",5,0,0,45,
+326211,Tire Manufacturing (Except Retreading),7,0,0,15,
+327121,Brick And Structural Clay Tile Manufacturing,3,0,0,21,
+327212,Other Pressed And Blown Glass And Glassware Manufacturing,3,0,0,29,
+327215,Glass Product Manufacturing Made Of Purchased Glass,7,0,0,43,
+3274XX,Lime And Gypsum Product Manufacturing,3,0,0,33,
+327991,Cut Stone And Stone Product Manufacturing,23,0,0,51,
+33121X,Iron And Steel Pipe And Tube Manufacturing From Purchased Steel,3,0,0,34,
+331316,Aluminum Extruded Product Manufacturing,1,0,0,21,
+331419,Primary Smelting And Refining Of Nonferrous Metal (Except Copper And Aluminum),3,0,0,13,
+33141X,Nonferrous Metal (Except Aluminum) Smelting And Refining,4,0,0,17,
+331521,Aluminum Die-Casting Foundries,1,0,0,24,
+331522,Nonferrous (Except Aluminum) Die-Casting Foundries,1,0,0,21,
+332116,Metal Stamping,6,0,0,41,
+33221X,Cutlery And Handtool Manufacturing,4,0,0,47,
+3322XX,Cutlery And Handtool Manufacturing,4,0,0,47,
+332311,Prefabricated Metal Building And Component Manufacturing,7,0,0,44,
+332313,Plate Work Manufacturing,13,0,0,47,
+332323,Ornamental And Architectural Metal Work Manufacturing,10,0,0,48,
+332618,Other Fabricated Wire Product Manufacturing,3,0,0,40,
+332722,"Bolt, Nut, Screw, Rivet, And Washer Manufacturing",4,0,0,36,
+332812,"Metal Coating, Engraving (Except Jewelry And Silverware), And Allied Services To Manufacturers",11,0,0,46,
+332999,All Other Miscellaneous Fabricated Metal Product Manufacturing,9,0,0,49,
+333298,All Other Industrial Machinery Manufacturing,3,0,0,40,
+33329X,Other Industrial Machinery Manufacturing,10,0,0,43,
+3332XX,Industrial Machinery Manufacturing,11,0,0,47,
+33331X,Commercial And Service Industry Machinery Manufacturing,3,0,0,50,
+3333XX,Commercial And Service Industry Machinery Manufacturing,3,0,0,50,
+333511,Industrial Mold Manufacturing,3,0,0,43,
+333512,Machine Tool (Metal Cutting Types) Manufacturing,3,0,0,42,
+333514,"Special Die And Tool, Die Set, Jig, And Fixture Manufacturing",3,0,0,44,
+33351X,Metalworking Machinery Manufacturing,38,0,0,46,
+3335XX,Metalworking Machinery Manufacturing,38,0,0,46,
+33361X,"Engine, Turbine, And Power Transmission Equipment Manufacturing",11,0,0,44,
+3336XX,"Engine, Turbine, And Power Transmission Equipment Manufacturing",11,0,0,44,
+333922,Conveyor And Conveying Equipment Manufacturing,4,0,0,40,
+33411X,Computer And Peripheral Equipment Manufacturing,7,0,0,44,
+3341XX,Computer And Peripheral Equipment Manufacturing,7,0,0,44,
+334413,Semiconductor And Related Device Manufacturing,5,0,0,42,
+334511,"Search, Detection, Navigation.",3,0,0,35,
+33637X,Motor Vehicle Metal Stamping,7,0,0,29,
+336399,All Other Motor Vehicle Parts Manufacturing,18,0,0,30,
+33699X,Other Transportation Equipment Manufacturing,8,0,0,40,
+3369XX,Other Transportation Equipment Manufacturing,8,0,0,40,
+337121,Upholstered Household Furniture Manufacturing,3,0,0,43,
+337122,Nonupholstered Wood Household Furniture Manufacturing,3,0,0,52,
+33712X,Household And Institutional Furniture Manufacturing,19,0,0,52,
+339911,Jewelry (Except Costume) Manufacturing,1,0,0,45,
+42322X,Home Furnishing Merchant Wholesalers,4,0,0,50,
+42343X,Computer And Computer Peripheral Equipment And Software Merchant Wholesalers,3,0,0,52,
+42344X,Other Commercial Equipment Merchant Wholesalers,3,0,0,52,
+42372X,Plumbing And Heating Equipment And Supplies (Hydronics) Merchant Wholesalers,7,0,0,52,
+42391X,Sporting And Recreational Goods And Supplies Merchant Wholesalers,4,0,0,51,
+42399X,Other Miscellaneous Durable Goods Merchant Wholesalers,7,0,0,52,
+4243XX,"Apparel, Piece Goods, And Notions Merchant Wholesalers",6,0,0,52,
+42445X,Confectionery Merchant Wholesalers,9,0,0,50,
+42449X,Other Grocery And Related Products Merchant Wholesalers,54,0,0,52,
+42459X,Other Farm Product Raw Material Merchant Wholesalers,3,0,0,45,
+42469X,Other Chemical And Allied Products Merchant Wholesalers,35,0,0,51,
+42482X,Wine And Distilled Alcoholic Beverage Merchant Wholesalers,13,0,0,49,
+42499X,Other Miscellaneous Nondurable Goods Merchant Wholesalers,3,0,0,52,
+441221,Motorcycle Dealers,25,0,0,51,
+441222,Boat Dealers,8,0,0,50,
+441229,All Other Motor Vehicle Dealers,3,0,0,50,
+443111,Household Appliance Stores,3,0,0,52,
+443112,"Radio, Television, And Other Electronics Stores",26,0,0,52,
+44313X,Camera And Photographic Supplies Stores,2,0,0,50,
+44412X,Paint And Wallpaper Stores,3,0,0,51,
+44421X,Outdoor Power Equipment Stores,7,0,0,51,
+44719X,Other Gasoline Stations,40,0,0,52,
+44819X,Other Clothing Stores,8,0,0,52,
+44821X,Shoe Stores,3,0,0,52,
+4482XX,Shoe Stores,3,0,0,52,
+45122X,"Prerecorded Tape, Compact Disc, And Record Stores",8,0,0,52,
+45299X,All Other General Merchandise Stores,41,0,0,39,
+45393X,Manufactured (Mobile) Home Dealers,8,0,0,47,
+453998,All Other Miscellaneous Store Retailers (Except Tobacco Stores),30,0,0,52,
+454311,Heating Oil Dealers,16,0,0,43,
+454312,Liquefied Petroleum Gas (Bottled Gas) Dealers,23,0,0,49,
+482112,Short Line Railroads,9,0,0,2,
+485999,All Other Transit And Ground Passenger Transportation,13,0,0,48,
+48611X,Pipeline Transportation Of Crude Oil,3,0,0,17,
+4861XX,Pipeline Transportation Of Crude Oil,3,0,0,17,
+48621X,Pipeline Transportation Of Natural Gas,4,0,0,36,
+4862XX,Pipeline Transportation Of Natural Gas,4,0,0,36,
+48799X,"Scenic And Sightseeing Transportation, Other",15,0,0,33,
+48819X,Other Support Activities For Air Transportation,47,0,0,50,
+48839X,Other Support Activities For Water Transportation,13,0,0,32,
+49312X,Refrigerated Warehousing And Storage,20,0,0,43,
+49319X,Other Warehousing And Storage,4,0,0,47,
+51224X,Sound Recording Studios,5,0,0,48,
+5122XX,Sound Recording Industries,8,0,0,51,
+51512X,Television Broadcasting,17,0,0,50,
+517212,Cellular And Other Wireless Telecommunications,13,0,0,45,
+51721X,Wireless Telecommunications Carriers (Except Satellite),29,0,0,52,
+5172XX,Wireless Telecommunications Carriers (Except Satellite),29,0,0,52,
+51751X,Cable And Other Program Distribution,27,0,0,48,
+5175XX,Cable And Other Program Distribution,27,0,0,48,
+51821X,"Data Processing, Hosting, And Related Services",3,0,0,52,
+5182XX,"Data Processing, Hosting, And Related Services",3,0,0,52,
+518XXX,"Internet Service Providers, Web Search Portals, And Data Processing Services",7,0,0,52,
+52212X,Savings Institutions,3,0,0,44,
+522291,Consumer Lending,3,0,0,48,
+522298,All Other Nondepository Credit Intermediation,35,0,0,52,
+52232X,"Financial Transactions Processing, Reserve, And Clearinghouse Activities",3,0,0,51,
+52312X,Securities Brokerage,5,0,0,52,
+52393X,Investment Advice,10,0,0,52,
+5239XX,Other Financial Investment Activities,12,0,0,50,
+524126,Direct Property And Casualty Insurance Carriers,6,0,0,52,
+52412X,"Direct Insurance (Except Life, Health, And Medical) Carriers",9,0,0,51,
+53119X,Lessors Of Other Real Estate Property,18,0,0,52,
+532299,All Other Consumer Goods Rental,12,0,0,52,
+53231X,General Rental Centers,4,0,0,51,
+5323XX,General Rental Centers,4,0,0,51,
+53249X,Other Commercial And Industrial Machinery And Equipment Rental And Leasing,9,0,0,51,
+541199,All Other Legal Services,4,0,0,51,
+54135X,Building Inspection Services,6,0,0,52,
+54136X,Geophysical Surveying And Mapping Services,7,0,0,51,
+541511,Custom Computer Programming Services,9,0,0,52,
+541512,Computer Systems Design Services,9,0,0,52,
+541519,Other Computer Related Services,3,0,0,50,
+54151X,Computer Systems Design And Related Services,42,0,0,52,
+5415XX,Computer Systems Design And Related Services,42,0,0,52,
+541611,Administrative Management And General Management Consulting Services,4,0,0,52,
+541613,Marketing Consulting Services,12,0,0,52,
+54161X,Management Consulting Services,54,0,0,52,
+54169X,Other Scientific And Technical Consulting Services,7,0,0,52,
+541712,"Research And Development In The Physical, Engineering, And Life Sciences (Except Biotechnology)",3,0,0,51,
+54171X,"Research And Development In The Physical, Engineering, And Life Sciences",31,0,0,52,
+5417XX,Scientific Research And Development Services,34,0,0,52,
+54181X,Advertising Agencies,3,0,0,52,
+54185X,Display Advertising,31,0,0,52,
+56121X,Facilities Support Services,34,0,0,52,
+5612XX,Facilities Support Services,34,0,0,52,
+56151X,Travel Agencies,4,0,0,52,
+56199X,All Other Support Services,53,0,0,52,
+562119,Other Waste Collection,19,0,0,42,
+562219,Other Nonhazardous Waste Treatment And Disposal,13,0,0,45,
+562998,All Other Miscellaneous Waste Management Services,12,0,0,50,
+611519,Other Technical And Trade Schools,3,0,0,52,
+611692,Automobile Driving Schools,3,0,0,46,
+61169X,All Other Schools And Instruction,4,0,0,52,
+621399,Offices Of All Other Miscellaneous Health Practitioners,3,0,0,52,
+623311,Continuing Care Retirement Communities,7,0,0,52,
+62399X,Other Residential Care Facilities,11,0,0,52,
+62411X,Child And Youth Services,16,0,0,52,
+62419X,Other Individual And Family Services,41,0,0,52,
+62421X,Community Food Services,5,0,0,51,
+71119X,Other Performing Arts Companies,25,0,0,37,
+7132XX,Gambling Industries,11,0,0,49,
+722212,Cafeterias,3,0,0,52,
+722213,Snack And Nonalcoholic Beverage Bars,23,0,0,52,
+81149X,Other Personal And Household Goods Repair And Maintenance,19,0,0,52,
+812113,Nail Salons,3,0,0,51,
+812199,Other Personal Care Services,15,0,0,51,
+81222X,Cemeteries And Crematories,10,0,0,51,
+812331,Linen Supply,6,0,0,47,
+81299X,All Other Personal Services,8,0,0,52,
+813319,Other Social Advocacy Organizations,3,0,0,52,
+81394X,Political Organizations,4,0,0,52,
+92111X,Executive Offices,6,0,0,45,
+92113X,Public Finance Activities,11,0,0,52,
+92119X,Other General Government Support,28,0,0,52,
+92211X,Courts,15,0,0,52,
+92219X,"Other Justice, Public Order, And Safety Activities",8,0,0,52,
+92511X,Administration Of Housing Programs,3,0,0,50,
+92611X,Administration Of General Economic Programs,11,0,0,52,
+92614X,Regulation Of Agricultural Marketing And Commodities,6,0,0,52,
+92615X,"Regulation, Licensing, And Inspection Of Miscellaneous Commercial Sectors",21,0,0,52,
+42314X,Motor Vehicle Parts (Used) Merchant Wholesalers,60,1,1.666666666666666667,48,1
+44122X,"Motorcycle, Boat, And Other Motor Vehicle Dealers",59,1,1.694915254237288136,51,1
+45399X,All Other Miscellaneous Store Retailers,59,1,1.694915254237288136,52,1
+23833X,Flooring Contractors,47,1,2.127659574468085106,52,1
+33281X,"Coating, Engraving, Heat Treating, And Allied Activities",42,1,2.380952380952380952,51,1
+3328XX,"Coating, Engraving, Heat Treating, And Allied Activities",42,1,2.380952380952380952,51,1
+33621X,Motor Vehicle Body And Trailer Manufacturing,41,1,2.439024390243902439,50,1
+3362XX,Motor Vehicle Body And Trailer Manufacturing,41,1,2.439024390243902439,50,1
+6214XX,Outpatient Care Centers,40,1,2.5,52,1
+48551X,Charter Bus Industry,39,1,2.564102564102564103,48,1
+4855XX,Charter Bus Industry,39,1,2.564102564102564103,48,1
+44419X,Other Building Material Dealers,116,3,2.586206896551724138,52,1
+32733X,"Concrete Pipe, Brick, And Block Manufacturing",38,1,2.631578947368421053,41,1
+4412XX,Other Motor Vehicle Dealers,75,2,2.666666666666666667,51,2
+311615,Poultry Processing,73,2,2.739726027397260274,31,2
+481111,Scheduled Passenger Air Transportation,70,2,2.857142857142857143,47,2
+81233X,Linen And Uniform Supply,34,1,2.941176470588235294,50,1
+322121,Paper (Except Newsprint) Mills,32,1,3.125,23,1
+3345XX,"Navigational, Measuring, Electromedical, And Control Instruments Manufacturing",32,1,3.125,51,1
+62431X,Vocational Rehabilitation Services,63,2,3.174603174603174603,52,2
+6243XX,Vocational Rehabilitation Services,63,2,3.174603174603174603,52,2
+23834X,Tile And Terrazzo Contractors,31,1,3.225806451612903226,52,1
+33451X,"Navigational, Measuring, Electromedical, And Control Instruments Manufacturing",31,1,3.225806451612903226,51,1
+51711X,Wired Telecommunications Carriers,93,3,3.225806451612903226,52,3
+5171XX,Wired Telecommunications Carriers,93,3,3.225806451612903226,52,3
+3271XX,Clay Product And Refractory Manufacturing,29,1,3.448275862068965517,45,1
+53212X,"Truck, Utility Trailer, And Rv (Recreational Vehicle) Rental And Leasing",29,1,3.448275862068965517,50,1
+711212,Racetracks,55,2,3.636363636363636364,47,2
+5151XX,Radio And Television Broadcasting,26,1,3.846153846153846154,50,1
+31111X,Animal Food Manufacturing,51,2,3.921568627450980392,46,2
+3111XX,Animal Food Manufacturing,51,2,3.921568627450980392,46,2
+32212X,Paper Mills,51,2,3.921568627450980392,32,2
+212312,Crushed And Broken Limestone Mining And Quarrying,25,1,4,32,1
+33232X,Ornamental And Architectural Metal Products Manufacturing,50,2,4,50,2
+32191X,Millwork,24,1,4.166666666666666667,51,1
+327331,Concrete Block And Brick Manufacturing,24,1,4.166666666666666667,43,1
+33392X,Material Handling Equipment Manufacturing,24,1,4.166666666666666667,44,1
+32199X,All Other Wood Product Manufacturing,23,1,4.347826086956521739,50,1
+3221XX,"Pulp, Paper, And Paperboard Mills",69,3,4.347826086956521739,38,3
+32712X,Clay Building Material And Refractories Manufacturing,23,1,4.347826086956521739,38,1
+4237XX,"Hardware, And Plumbing And Heating Equipment And Supplies Merchant Wholesalers",23,1,4.347826086956521739,52,1
+23815X,Glass And Glazing Contractors,44,2,4.545454545454545455,52,2
+42311X,Automobile And Other Motor Vehicle Merchant Wholesalers,22,1,4.545454545454545455,51,1
+3339XX,Other General Purpose Machinery Manufacturing,65,3,4.615384615384615385,51,3
+561621,Security Systems Services (Except Locksmiths),21,1,4.761904761904761905,51,1
+332322,Sheet Metal Work Manufacturing,20,1,5,50,1
+1123XX,Poultry And Egg Production,59,3,5.084745762711864407,45,3
+44112X,Used Car Dealers,97,5,5.154639175257731959,52,4
+33341X,"Ventilation, Heating, Air-Conditioning, And Commercial Refrigeration Equipment Manufacturing",19,1,5.263157894736842105,48,1
+3334XX,"Ventilation, Heating, Air-Conditioning, And Commercial Refrigeration Equipment Manufacturing",19,1,5.263157894736842105,48,1
+4232XX,Furniture And Home Furnishing Merchant Wholesalers,19,1,5.263157894736842105,50,1
+42493X,"Flower, Nursery Stock, And Florists' Supplies Merchant Wholesalers",19,1,5.263157894736842105,51,1
+71113X,Musical Groups And Artists,38,2,5.263157894736842105,52,2
+72231X,Food Service Contractors,19,1,5.263157894736842105,52,1
+32221X,Paperboard Container Manufacturing,36,2,5.555555555555555556,47,2
+56162X,Security Systems Services,36,2,5.555555555555555556,52,2
+31199X,All Other Food Manufacturing,17,1,5.882352941176470588,48,1
+32621X,Tire Manufacturing,17,1,5.882352941176470588,38,1
+33711X,Wood Kitchen Cabinet And Countertop Manufacturing,17,1,5.882352941176470588,50,1
+42441X,General Line Grocery Merchant Wholesalers,85,5,5.882352941176470588,52,4
+42448X,Fresh Fruit And Vegetable Merchant Wholesalers,51,3,5.882352941176470588,50,3
+72232X,Caterers,17,1,5.882352941176470588,52,1
+42512X,Wholesale Trade Agents And Brokers,67,4,5.970149253731343284,51,1
+23839X,Other Building Finishing Contractors,50,3,6,52,2
+42345X,"Medical, Dental, And Hospital Equipment And Supplies Merchant Wholesalers",33,2,6.060606060606060606,52,2
+49313X,Farm Product Warehousing And Storage,33,2,6.060606060606060606,39,2
+5418XX,Advertising And Related Services,65,4,6.153846153846153846,52,2
+32121X,"Veneer, Plywood, And Engineered Wood Product Manufacturing",48,3,6.25,49,1
+3212XX,"Veneer, Plywood, And Engineered Wood Product Manufacturing",48,3,6.25,49,1
+3222XX,Converted Paper Product Manufacturing,64,4,6.25,45,3
+5241XX,Insurance Carriers,32,2,6.25,52,2
+54131X,Architectural Services,16,1,6.25,52,1
+81293X,Parking Lots And Garages,16,1,6.25,51,1
+61162X,Sports And Recreation Instruction,47,3,6.382978723404255319,52,2
+11292X,Horses And Other Equine Production,62,4,6.451612903225806452,41,1
+4234XX,Professional And Commercial Equipment And Supplies Merchant Wholesalers,76,5,6.578947368421052632,52,5
+32531X,Fertilizer Manufacturing,15,1,6.666666666666666667,42,1
+3312XX,Steel Product Manufacturing From Purchased Steel,30,2,6.666666666666666667,39,2
+332312,Fabricated Structural Metal Manufacturing,90,6,6.666666666666666667,51,4
+332813,"Electroplating, Plating, Polishing, Anodizing, And Coloring",15,1,6.666666666666666667,48,1
+42331X,"Lumber, Plywood, Millwork, And Wood Panel Merchant Wholesalers",15,1,6.666666666666666667,50,1
+42385X,Service Establishment Equipment And Supplies Merchant Wholesalers,15,1,6.666666666666666667,52,1
+515XXX,Broadcasting (Except Internet),45,3,6.666666666666666667,52,3
+9231XX,Administration Of Human Resource Programs,45,3,6.666666666666666667,52,3
+923XXX,Administration Of Human Resource Programs,45,3,6.666666666666666667,52,3
+21232X,"Sand, Gravel, Clay, And Ceramic And Refractory Minerals Mining And Quarrying",73,5,6.849315068493150685,49,5
+212321,Construction Sand And Gravel Mining,58,4,6.896551724137931034,45,4
+33231X,Plate Work And Fabricated Structural Product Manufacturing,130,9,6.923076923076923077,51,4
+221111,Hydroelectric Power Generation,14,1,7.142857142857142857,35,1
+331513,Steel Foundries (Except Investment),14,1,7.142857142857142857,24,1
+44311X,"Appliance, Television, And Other Electronics Stores",42,3,7.142857142857142857,52,1
+48831X,Port And Harbor Operations,14,1,7.142857142857142857,27,1
+53241X,"Construction, Transportation, Mining, And Forestry Machinery And Equipment Rental And Leasing",56,4,7.142857142857142857,52,3
+62412X,Services For The Elderly And Persons With Disabilities,42,3,7.142857142857142857,52,3
+3371XX,Household And Institutional Furniture And Kitchen Cabinet Manufacturing,55,4,7.272727272727272727,50,2
+532412,"Construction, Mining, And Forestry Machinery And Equipment Rental And Leasing",41,3,7.317073170731707317,50,2
+4532XX,"Office Supplies, Stationery, And Gift Stores",27,2,7.407407407407407407,52,2
+5221XX,Depository Credit Intermediation,80,6,7.5,52,4
+8122XX,Death Care Services,53,4,7.547169811320754717,52,4
+21239X,Other Nonmetallic Mineral Mining And Quarrying,13,1,7.692307692307692308,34,1
+311811,Retail Bakeries,13,1,7.692307692307692308,47,1
+453991,Tobacco Stores,13,1,7.692307692307692308,52,1
+54132X,Landscape Architectural Services,13,1,7.692307692307692308,52,1
+812332,Industrial Launderers,13,1,7.692307692307692308,47,1
+5619XX,Other Support Services,77,6,7.792207792207792208,52,4
+42382X,Farm And Garden Machinery And Equipment Merchant Wholesalers,64,5,7.8125,50,5
+311611,Animal (Except Poultry) Slaughtering,25,2,8,45,2
+7111XX,Performing Arts Companies,75,6,8,52,5
+81121X,Electronic And Precision Equipment Repair And Maintenance,37,3,8.108108108108108108,52,3
+8112XX,Electronic And Precision Equipment Repair And Maintenance,37,3,8.108108108108108108,52,3
+523XXX,"Securities, Commodity Contracts, And Other Financial Investments And Related Activities",49,4,8.16326530612244898,52,1
+336211,Motor Vehicle Body Manufacturing,12,1,8.333333333333333333,43,1
+44411X,Home Centers,72,6,8.333333333333333333,51,3
+5414XX,Specialized Design Services,12,1,8.333333333333333333,52,1
+54194X,Veterinary Services,24,2,8.333333333333333333,52,2
+561431,Private Mail Centers,12,1,8.333333333333333333,50,1
+6241XX,Individual And Family Services,118,10,8.474576271186440678,52,5
+71151X,"Independent Artists, Writers, And Performers",58,5,8.620689655172413793,51,4
+7115XX,"Independent Artists, Writers, And Performers",58,5,8.620689655172413793,51,4
+5324XX,Commercial And Industrial Machinery And Equipment Rental And Leasing,81,7,8.641975308641975309,52,4
+23829X,Other Building Equipment Contractors,113,10,8.849557522123893805,52,4
+56171X,Exterminating And Pest Control Services,45,4,8.888888888888888889,52,4
+238991,All Other Residential Specialty Trade Contractors,56,5,8.928571428571428571,52,2
+31211X,Soft Drink And Ice Manufacturing,56,5,8.928571428571428571,50,3
+48599X,Other Transit And Ground Passenger Transportation,56,5,8.928571428571428571,52,3
+4859XX,Other Transit And Ground Passenger Transportation,56,5,8.928571428571428571,52,3
+1124XX,Sheep And Goat Farming,22,2,9.090909090909090909,21,1
+221112,Fossil Fuel Electric Power Generation,44,4,9.090909090909090909,49,4
+336612,Boat Building,11,1,9.090909090909090909,40,1
+42321X,Furniture Merchant Wholesalers,11,1,9.090909090909090909,49,1
+53113X,Lessors Of Miniwarehouses And Self-Storage Units,11,1,9.090909090909090909,52,1
+54137X,Surveying And Mapping (Except Geophysical) Services,11,1,9.090909090909090909,51,1
+56143X,Business Service Centers,11,1,9.090909090909090909,51,1
+238142,Nonresidential Masonry Contractors,86,8,9.302325581395348837,52,4
+53121X,Offices Of Real Estate Agents And Brokers,96,9,9.375,52,6
+5312XX,Offices Of Real Estate Agents And Brokers,96,9,9.375,52,6
+531312,Nonresidential Property Managers,32,3,9.375,52,3
+6116XX,Other Schools And Instruction,64,6,9.375,52,2
+72121X,Rv (Recreational Vehicle) Parks And Recreational Camps,64,6,9.375,50,5
+7212XX,Rv (Recreational Vehicle) Parks And Recreational Camps,64,6,9.375,50,5
+3251XX,Basic Chemical Manufacturing,74,7,9.459459459459459459,49,4
+322XXX,Paper Manufacturing,137,13,9.489051094890510949,50,5
+42312X,Motor Vehicle Supplies And New Parts Merchant Wholesalers,21,2,9.52380952380952381,52,2
+4512XX,"Book, Periodical, And Music Stores",21,2,9.52380952380952381,52,1
+45322X,"Gift, Novelty, And Souvenir Stores",21,2,9.52380952380952381,52,2
+52211X,Commercial Banking,63,6,9.52380952380952381,52,4
+48811X,Airport Operations,52,5,9.615384615384615385,52,2
+53211X,Passenger Car Rental And Leasing,31,3,9.677419354838709677,50,3
+71131X,"Promoters Of Performing Arts, Sports, And Similar Events With Facilities",31,3,9.677419354838709677,52,3
+48111X,Scheduled Air Transportation,103,10,9.708737864077669903,51,5
+4811XX,Scheduled Air Transportation,103,10,9.708737864077669903,51,5
+4251XX,Wholesale Electronic Markets And Agents And Brokers,72,7,9.722222222222222222,52,2
+425XXX,Wholesale Electronic Markets And Agents And Brokers,72,7,9.722222222222222222,52,2
+33299X,All Other Fabricated Metal Product Manufacturing,41,4,9.756097560975609756,43,3
+11241X,Sheep Farming,10,1,10,15,1
+238292,Other Nonresidential Building Equipment Contractors,60,6,10,52,3
+5321XX,Automotive Equipment Rental And Leasing,70,7,10,52,5
+81141X,Home And Garden Equipment And Appliance Repair And Maintenance,30,3,10,51,2
+81232X,Drycleaning And Laundry Services (Except Coin-Operated),40,4,10,52,4
+8123XX,Drycleaning And Laundry Services,110,11,10,52,8
+92312X,Administration Of Public Health Programs,10,1,10,52,1
+3329XX,Other Fabricated Metal Product Manufacturing,59,6,10.169491525423728814,50,4
+488119,Other Airport Operations,39,4,10.25641025641025641,41,1
+5614XX,Business Support Services,39,4,10.25641025641025641,52,4
+62311X,Nursing Care Facilities,78,8,10.25641025641025641,52,5
+6231XX,Nursing Care Facilities,78,8,10.25641025641025641,52,5
+451XXX,"Sporting Goods, Hobby, Book, And Music Stores",87,9,10.344827586206896552,52,6
+8114XX,Personal And Household Goods Repair And Maintenance,77,8,10.38961038961038961,52,5
+4236XX,Electrical And Electronic Goods Merchant Wholesalers,38,4,10.526315789473684211,52,3
+5231XX,Securities And Commodity Contracts Intermediation And Brokerage,19,2,10.526315789473684211,52,1
+56291X,Remediation Services,57,6,10.526315789473684211,52,2
+721214,Recreational And Vacation Camps (Except Campgrounds),38,4,10.526315789473684211,50,4
+22131X,Water Supply And Irrigation Systems,85,9,10.588235294117647059,51,6
+3219XX,Other Wood Product Manufacturing,94,10,10.638297872340425532,50,6
+71219X,Nature Parks And Other Similar Institutions,47,5,10.638297872340425532,51,1
+331511,Iron Foundries,28,3,10.714285714285714286,28,2
+42361X,"Electrical Apparatus And Equipment, Wiring Supplies, And Related Equipment Merchant  Wholesalers",28,3,10.714285714285714286,52,2
+532111,Passenger Car Rental,28,3,10.714285714285714286,47,3
+53229X,Other Consumer Goods Rental,28,3,10.714285714285714286,52,3
+337XXX,Furniture And Related Product Manufacturing,74,8,10.810810810810810811,52,4
+5223XX,Activities Related To Credit Intermediation,37,4,10.810810810810810811,52,2
+5419XX,"Other Professional, Scientific, And Technical Services",74,8,10.810810810810810811,52,6
+4529XX,Other General Merchandise Stores,92,10,10.869565217391304348,52,9
+62161X,Home Health Care Services,119,13,10.924369747899159664,52,6
+6216XX,Home Health Care Services,119,13,10.924369747899159664,52,6
+45431X,Fuel Dealers,64,7,10.9375,50,5
+238172,Nonresidential Siding Contractors,9,1,11.111111111111111111,49,1
+42442X,Packaged Frozen Food Merchant Wholesalers,9,1,11.111111111111111111,51,1
+48821X,Support Activities For Rail Transportation,27,3,11.111111111111111111,44,3
+4882XX,Support Activities For Rail Transportation,27,3,11.111111111111111111,44,3
+56131X,Employment Placement Agencies,18,2,11.111111111111111111,52,2
+62142X,Outpatient Mental Health And Substance Abuse Centers,9,1,11.111111111111111111,52,1
+92213X,Legal Counsel And Prosecution,9,1,11.111111111111111111,51,1
+92412X,Administration Of Conservation Programs,90,10,11.111111111111111111,52,6
+54111X,Offices Of Lawyers,88,10,11.363636363636363636,52,6
+3231XX,Printing And Related Support Activities,79,9,11.392405063291139241,52,4
+323XXX,Printing And Related Support Activities,79,9,11.392405063291139241,52,4
+4481XX,Clothing Stores,79,9,11.392405063291139241,52,5
+811192,Car Washes,61,7,11.47540983606557377,51,5
+486XXX,Pipeline Transportation,26,3,11.538461538461538462,47,1
+44529X,Other Specialty Food Stores,17,2,11.764705882352941176,52,2
+44831X,Jewelry Stores,34,4,11.764705882352941176,51,4
+4539XX,Other Miscellaneous Store Retailers,85,10,11.764705882352941176,52,3
+483211,Inland Water Freight Transportation,51,6,11.764705882352941176,29,3
+53112X,Lessors Of Nonresidential Buildings (Except Miniwarehouses),34,4,11.764705882352941176,52,4
+56299X,All Other Waste Management Services,68,8,11.764705882352941176,50,4
+81221X,Funeral Homes And Funeral Services,34,4,11.764705882352941176,50,4
+32311X,Printing,67,8,11.940298507462686567,52,4
+8129XX,Other Personal Services,67,8,11.940298507462686567,52,7
+44221X,Floor Covering Stores,25,3,12,52,3
+3119XX,Other Food Manufacturing,41,5,12.195121951219512195,50,5
+312111,Soft Drink Manufacturing,41,5,12.195121951219512195,41,3
+71399X,All Other Amusement And Recreation Industries,97,12,12.371134020618556701,52,3
+2123XX,Nonmetallic Mineral Mining And Quarrying,176,22,12.5,48,13
+238171,Residential Siding Contractors,40,5,12.5,49,5
+311812,Commercial Bakeries,48,6,12.5,50,4
+33243X,"Metal Can, Box, And Other Metal Container (Light Gauge) Manufacturing",8,1,12.5,43,1
+336212,Truck Trailer Manufacturing,8,1,12.5,33,1
+42384X,Industrial Supplies Merchant Wholesalers,16,2,12.5,50,2
+4241XX,Paper And Paper Product Merchant Wholesalers,16,2,12.5,52,2
+62321X,Residential Mental Retardation Facilities,24,3,12.5,52,3
+9251XX,"Administration Of Housing Programs, Urban Planning, And Community Development",8,1,12.5,52,1
+925XXX,"Administration Of Housing Programs, Urban Planning, And Community Development",8,1,12.5,52,1
+42332X,"Brick, Stone, And Related Construction Material Merchant Wholesalers",55,7,12.727272727272727273,51,4
+42381X,Construction And Mining (Except Oil Well) Machinery And Equipment Merchant Wholesalers,47,6,12.765957446808510638,51,4
+4422XX,Home Furnishings Stores,39,5,12.820512820512820513,52,5
+56292X,Materials Recovery Facilities,39,5,12.820512820512820513,46,4
+442XXX,Furniture And Home Furnishings Stores,109,14,12.844036697247706422,52,9
+61121X,Junior Colleges,31,4,12.903225806451612903,50,4
+6112XX,Junior Colleges,31,4,12.903225806451612903,50,4
+81112X,"Automotive Body, Paint, Interior, And Glass Repair",124,16,12.903225806451612903,52,8
+44111X,New Car Dealers,147,19,12.925170068027210884,52,7
+562212,Solid Waste Landfill,85,11,12.941176470588235294,50,7
+32739X,Other Concrete Product Manufacturing,46,6,13.043478260869565217,48,4
+33211X,Forging And Stamping,23,3,13.043478260869565217,47,3
+3321XX,Forging And Stamping,23,3,13.043478260869565217,47,3
+481112,Scheduled Freight Air Transportation,23,3,13.043478260869565217,45,2
+71394X,Fitness And Recreational Sports Centers,23,3,13.043478260869565217,52,3
+23819X,"Other Foundation, Structure, And Building Exterior Contractors",107,14,13.08411214953271028,52,4
+4483XX,"Jewelry, Luggage, And Leather Goods Stores",38,5,13.157894736842105263,52,5
+212311,Dimension Stone Mining And Quarrying,15,2,13.333333333333333333,38,2
+23799X,Other Heavy And Civil Engineering Construction,135,18,13.333333333333333333,52,2
+3253XX,"Pesticide, Fertilizer, And Other Agricultural Chemical Manufacturing",15,2,13.333333333333333333,45,2
+4452XX,Specialty Food Stores,75,10,13.333333333333333333,52,6
+485111,Mixed Mode Transit Systems,45,6,13.333333333333333333,21,4
+5222XX,Nondepository Credit Intermediation,75,10,13.333333333333333333,52,6
+5322XX,Consumer Goods Rental,60,8,13.333333333333333333,52,5
+9241XX,Administration Of Environmental Quality Programs,119,16,13.445378151260504202,52,9
+924XXX,Administration Of Environmental Quality Programs,119,16,13.445378151260504202,52,9
+54138X,Testing Laboratories,37,5,13.513513513513513514,52,3
+6213XX,Offices Of Other Health Practitioners,37,5,13.513513513513513514,52,5
+4511XX,"Sporting Goods, Hobby, And Musical Instrument Stores",59,8,13.559322033898305085,52,5
+42471X,Petroleum Bulk Stations And Terminals,22,3,13.636363636363636364,50,1
+48532X,Limousine Service,22,3,13.636363636363636364,52,3
+7113XX,"Promoters Of Performing Arts, Sports, And Similar Events",66,9,13.636363636363636364,52,8
+5416XX,"Management, Scientific, And Technical Consulting Services",95,13,13.684210526315789474,52,5
+52229X,Other Nondepository Credit Intermediation,73,10,13.69863013698630137,52,6
+33151X,Ferrous Metal Foundries,51,7,13.725490196078431373,41,4
+48851X,Freight Transportation Arrangement,36,5,13.888888888888888889,52,3
+4885XX,Freight Transportation Arrangement,36,5,13.888888888888888889,52,3
+54121X,"Accounting, Tax Preparation, Bookkeeping, And Payroll Services",36,5,13.888888888888888889,52,4
+5412XX,"Accounting, Tax Preparation, Bookkeeping, And Payroll Services",36,5,13.888888888888888889,52,4
+21231X,Stone Mining And Quarrying,79,11,13.924050632911392405,49,8
+42351X,Metal Service Centers And Other Metal Merchant Wholesalers,64,9,14.0625,43,7
+4235XX,Metal And Mineral (Except Petroleum) Merchant Wholesalers,64,9,14.0625,50,7
+11232X,Broilers And Other Meat Type Chicken Production,7,1,14.285714285714285714,24,
+32518X,Other Basic Inorganic Chemical Manufacturing,14,2,14.285714285714285714,41,2
+32519X,Other Basic Organic Chemical Manufacturing,7,1,14.285714285714285714,43,1
+333415,Air-Conditioning And Warm Air Heating Eqp. And Commercial And Industrial Refrigeration Eqp. Mfg.,7,1,14.285714285714285714,40,1
+33721X,Office Furniture (Including Fixtures) Manufacturing,7,1,14.285714285714285714,45,1
+3372XX,Office Furniture (Including Fixtures) Manufacturing,7,1,14.285714285714285714,45,1
+33911X,Medical Equipment And Supplies Manufacturing,7,1,14.285714285714285714,52,1
+3391XX,Medical Equipment And Supplies Manufacturing,7,1,14.285714285714285714,52,1
+4246XX,Chemical And Allied Products Merchant Wholesalers,49,7,14.285714285714285714,51,4
+44413X,Hardware Stores,21,3,14.285714285714285714,52,2
+44814X,Family Clothing Stores,14,2,14.285714285714285714,52,2
+48721X,"Scenic And Sightseeing Transportation, Water",21,3,14.285714285714285714,41,2
+4872XX,"Scenic And Sightseeing Transportation, Water",21,3,14.285714285714285714,41,2
+5242XX,"Agencies, Brokerages, And Other Insurance Related Activities",63,9,14.285714285714285714,52,7
+621112,"Offices Of Physicians, Mental Health Specialists",7,1,14.285714285714285714,52,1
+721211,Rv (Recreational Vehicle) Parks And Campgrounds,14,2,14.285714285714285714,51,1
+811411,Home And Garden Equipment Repair And Maintenance,7,1,14.285714285714285714,51,1
+92411X,Administration Of Air And Water Resource And Solid Waste Management Programs,21,3,14.285714285714285714,50,3
+4881XX,Support Activities For Air Transportation,111,16,14.414414414414414414,52,9
+11521X,Support Activities For Animal Production,62,9,14.516129032258064516,51,7
+1152XX,Support Activities For Animal Production,62,9,14.516129032258064516,51,7
+481219,Other Nonscheduled Air Transportation,48,7,14.583333333333333333,42,1
+52421X,Insurance Agencies And Brokerages,48,7,14.583333333333333333,52,6
+44422X,"Nursery, Garden Center, And Farm Supply Stores",82,12,14.634146341463414634,52,8
+811121,"Automotive Body, Paint, And Interior Repair And Maintenance",109,16,14.678899082568807339,52,8
+62121X,Offices Of Dentists,34,5,14.705882352941176471,52,3
+6212XX,Offices Of Dentists,34,5,14.705882352941176471,52,3
+62441X,Child Day Care Services,34,5,14.705882352941176471,52,5
+6244XX,Child Day Care Services,34,5,14.705882352941176471,52,5
+44211X,Furniture Stores,61,9,14.754098360655737705,52,5
+4421XX,Furniture Stores,61,9,14.754098360655737705,52,5
+4431XX,Electronics And Appliance Stores,61,9,14.754098360655737705,52,5
+443XXX,Electronics And Appliance Stores,61,9,14.754098360655737705,52,5
+238911,Residential Site Preparation Contractors,115,17,14.782608695652173913,51,7
+45311X,Florists,27,4,14.814814814814814815,52,3
+4531XX,Florists,27,4,14.814814814814814815,52,3
+48849X,Other Support Activities For Road Transportation,74,11,14.864864864864864865,49,3
+5411XX,Legal Services,107,16,14.953271028037383178,52,7
+4233XX,Lumber And Other Construction Materials Merchant Wholesalers,100,15,15,52,9
+112112,Cattle Feedlots,33,5,15.151515151515151515,36,3
+32192X,Wood Container And Pallet Manufacturing,33,5,15.151515151515151515,50,4
+81341X,Civic And Social Organizations,59,9,15.25423728813559322,52,4
+8134XX,Civic And Social Organizations,59,9,15.25423728813559322,52,4
+811412,Appliance Repair And Maintenance,13,2,15.384615384615384615,51,2
+32799X,All Other Nonmetallic Mineral Product Manufacturing,45,7,15.555555555555555556,43,1
+48833X,Navigational Services To Shipping,51,8,15.686274509803921569,35,3
+42491X,Farm Supplies Merchant Wholesalers,107,17,15.887850467289719626,52,9
+562991,Septic Tank And Related Services,44,7,15.909090909090909091,51,4
+811198,All Other Automotive Repair And Maintenance,44,7,15.909090909090909091,51,1
+3327XX,"Machine Shops; Turned Product; And Screw, Nut, And Bolt Manufacturing",75,12,16,51,7
+2213XX,"Water, Sewage And Other Systems",137,22,16.058394160583941606,49,11
+482111,Line-Haul Railroads,130,21,16.153846153846153846,5,1
+487XXX,Scenic And Sightseeing Transportation,68,11,16.176470588235294118,51,7
+3323XX,Architectural And Structural Metals Manufacturing,185,30,16.216216216216216216,52,8
+81411X,Private Households,37,6,16.216216216216216216,52,3
+8141XX,Private Households,37,6,16.216216216216216216,52,3
+814XXX,Private Households,37,6,16.216216216216216216,52,3
+31161X,Animal Slaughtering And Processing,160,26,16.25,51,8
+3116XX,Animal Slaughtering And Processing,160,26,16.25,51,8
+326199,All Other Plastics Product Manufacturing,43,7,16.279069767441860465,45,1
+452112,Discount Department Stores,49,8,16.326530612244897959,52,6
+42383X,Industrial Machinery And Equipment Merchant Wholesalers,103,17,16.504854368932038835,52,8
+44131X,Automotive Parts And Accessories Stores,127,21,16.535433070866141732,52,6
+238152,Non Residential Glass And Glazing Contractors,12,2,16.666666666666666667,52,2
+32213X,Paperboard Mills,6,1,16.666666666666666667,19,1
+32412X,"Asphalt Paving, Roofing, And Saturated Materials Manufacturing",24,4,16.666666666666666667,45,3
+33122X,Rolling And Drawing Of Purchased Steel,12,2,16.666666666666666667,33,2
+45121X,Book Stores And News Dealers,6,1,16.666666666666666667,52,1
+48899X,Other Support Activities For Transportation,12,2,16.666666666666666667,46,2
+4889XX,Other Support Activities For Transportation,12,2,16.666666666666666667,46,2
+522292,Real Estate Credit,6,1,16.666666666666666667,51,1
+52239X,Other Activities Related To Credit Intermediation,18,3,16.666666666666666667,52,1
+62331X,Community Care Facilities For The Elderly,48,8,16.666666666666666667,52,4
+6233XX,Community Care Facilities For The Elderly,48,8,16.666666666666666667,52,4
+71393X,Marinas,18,3,16.666666666666666667,49,1
+9211XX,"Executive, Legislative, And Other General Government Support",124,21,16.935483870967741935,52,7
+921XXX,"Executive, Legislative, And Other General Government Support",124,21,16.935483870967741935,52,7
+81131X,Commercial Machinery Repair And Maintenance,206,35,16.99029126213592233,52,11
+8113XX,Commercial Machinery Repair And Maintenance,206,35,16.99029126213592233,52,11
+48541X,School And Employee Bus Transportation,47,8,17.021276595744680851,52,3
+4854XX,School And Employee Bus Transportation,47,8,17.021276595744680851,52,3
+23835X,Finish Carpentry Contractors,176,30,17.045454545454545455,52,10
+33271X,Machine Shops,64,11,17.1875,49,6
+3314XX,Nonferrous Metal (Except Aluminum) Production And Processing,29,5,17.241379310344827586,42,1
+54133X,Engineering Services,168,29,17.261904761904761905,52,9
+812111,Barber Shops,52,9,17.307692307692307692,51,7
+23817X,Siding Contractors,103,18,17.475728155339805825,50,8
+48421X,Used Household And Office Goods Moving,74,13,17.567567567567567568,51,4
+22111X,Electric Power Generation,102,18,17.647058823529411765,52,7
+32721X,Glass And Glass Product Manufacturing,34,6,17.647058823529411765,45,4
+3272XX,Glass And Glass Product Manufacturing,34,6,17.647058823529411765,45,4
+452111,Department Stores (Except Discount Department Stores),34,6,17.647058823529411765,51,1
+4231XX,Motor Vehicle And Motor Vehicle Parts And Supplies Merchant Wholesalers,129,23,17.829457364341085271,52,7
+45111X,Sporting Goods Stores,39,7,17.948717948717948718,52,4
+62191X,Ambulance Services,167,30,17.96407185628742515,51,12
+32731X,Cement Manufacturing,11,2,18.181818181818181818,29,1
+33152X,Nonferrous Metal Foundries,11,2,18.181818181818181818,41,2
+33399X,All Other General Purpose Machinery Manufacturing,11,2,18.181818181818181818,48,2
+44523X,Fruit And Vegetable Markets,11,2,18.181818181818181818,47,2
+44611X,Pharmacies And Drug Stores,55,10,18.181818181818181818,52,6
+561613,Armored Car Services,44,8,18.181818181818181818,46,3
+92313X,Administration Of Other Human Resource Programs,11,2,18.181818181818181818,52,2
+531311,Residential Property Managers,82,15,18.292682926829268293,52,7
+481211,Nonscheduled Chartered Passenger Air Transportation,153,28,18.30065359477124183,51,12
+11114X,Wheat Farming,38,7,18.421052631578947368,31,5
+3262XX,Rubber Product Manufacturing,38,7,18.421052631578947368,48,2
+221122,Electric Power Distribution,141,26,18.439716312056737589,44,13
+522XXX,Credit Intermediation And Related Activities,195,36,18.461538461538461538,52,10
+4442XX,Lawn And Garden Equipment And Supplies Stores,97,18,18.556701030927835052,52,10
+238322,Nonresidential Painting And Wall Covering Contractors,91,17,18.681318681318681319,52,3
+56149X,Other Business Support Services,16,3,18.75,52,3
+81331X,Social Advocacy Organizations,16,3,18.75,52,2
+8133XX,Social Advocacy Organizations,16,3,18.75,52,2
+9261XX,Administration Of Economic Programs,160,30,18.75,52,9
+926XXX,Administration Of Economic Programs,160,30,18.75,52,9
+111219,Other Vegetable (Except Potato) And Melon Farming,69,13,18.840579710144927536,47,2
+56179X,Other Services To Buildings And Dwellings,90,17,18.888888888888888889,52,3
+22121X,Natural Gas Distribution,37,7,18.918918918918918919,45,5
+2212XX,Natural Gas Distribution,37,7,18.918918918918918919,45,5
+485991,Special Needs Transportation,21,4,19.047619047619047619,48,2
+49211X,Couriers,194,37,19.072164948453608247,52,12
+4921XX,Couriers,194,37,19.072164948453608247,52,12
+48211X,Rail Transportation,193,37,19.170984455958549223,13,5
+4821XX,Rail Transportation,193,37,19.170984455958549223,13,5
+482XXX,Rail Transportation,193,37,19.170984455958549223,13,5
+5629XX,Remediation And Other Waste Management Services,171,33,19.298245614035087719,51,13
+44132X,Tire Dealers,88,17,19.318181818181818182,52,7
+321113,Sawmills,175,34,19.428571428571428571,43,11
+45291X,Warehouse Clubs And Supercenters,41,8,19.512195121951219512,31,3
+6232XX,"Residential Mental Retardation, Mental Health And Substance Abuse Facilities",61,12,19.672131147540983607,52,6
+3112XX,Grain And Oilseed Milling,45,9,20,46,3
+3324XX,"Boiler, Tank, And Shipping Container Manufacturing",40,8,20,49,5
+33312X,Construction Machinery Manufacturing,10,2,20,44,2
+336112,Light Truck And Utility Vehicle Manufacturing,5,1,20,8,1
+44521X,Meat Markets,10,2,20,51,1
+44612X,"Cosmetics, Beauty Supplies, And Perfume Stores",10,2,20,52,2
+51521X,Cable And Other Subscription Programming,10,2,20,47,2
+5152XX,Cable And Other Subscription Programming,10,2,20,47,2
+532411,"Commercial Air, Rail, And Water Transportation Equipment Rental And Leasing",5,1,20,44,1
+561622,Locksmiths,5,1,20,51,1
+62149X,Other Outpatient Care Centers,10,2,20,51,2
+6239XX,Other Residential Care Facilities,15,3,20,52,3
+7223XX,Special Food Services,89,18,20.224719101123595506,52,7
+517XXX,Telecommunications,182,37,20.32967032967032967,52,11
+11221X,Hog And Pig Farming,54,11,20.37037037037037037,33,7
+1122XX,Hog And Pig Farming,54,11,20.37037037037037037,33,7
+238111,Residential Poured Concrete Foundation And Structure Contractors,54,11,20.37037037037037037,52,3
+115112,"Soil Preparation, Planting, And Cultivating",98,20,20.408163265306122449,46,8
+6219XX,Other Ambulatory Health Care Services,181,37,20.441988950276243094,52,14
+45439X,Other Direct Selling Establishments,83,17,20.481927710843373494,51,3
+334XXX,Computer And Electronic Product Manufacturing,92,19,20.652173913043478261,52,7
+3252XX,"Resin, Synthetic Rubber, And Artificial Synthetic Fibers And Filaments Manufacturing",29,6,20.689655172413793103,44,2
+3361XX,Motor Vehicle Manufacturing,29,6,20.689655172413793103,28,3
+238351,Residential Finish Carpentry Contractors,53,11,20.754716981132075472,52,5
+3259XX,Other Chemical Product And Preparation Manufacturing,48,10,20.833333333333333333,50,6
+42421X,Drugs And Druggists' Sundries Merchant Wholesalers,24,5,20.833333333333333333,52,3
+4242XX,Drugs And Druggists' Sundries Merchant Wholesalers,24,5,20.833333333333333333,52,3
+62151X,Medical And Diagnostic Laboratories,24,5,20.833333333333333333,52,3
+6215XX,Medical And Diagnostic Laboratories,24,5,20.833333333333333333,52,3
+32111X,Sawmills And Wood Preservation,187,39,20.855614973262032086,51,12
+3211XX,Sawmills And Wood Preservation,187,39,20.855614973262032086,51,12
+1129XX,Other Animal Production,114,24,21.052631578947368421,48,12
+21222X,Gold Ore And Silver Ore Mining,19,4,21.052631578947368421,12,1
+336411,Aircraft Manufacturing,38,8,21.052631578947368421,32,2
+3315XX,Foundries,71,15,21.12676056338028169,46,5
+524XXX,Insurance Carriers And Related Activities,104,22,21.153846153846153846,52,8
+56172X,Janitorial Services,217,46,21.19815668202764977,52,12
+4461XX,Health And Personal Care Stores,80,17,21.25,52,8
+446XXX,Health And Personal Care Stores,80,17,21.25,52,8
+3279XX,Other Nonmetallic Mineral Product Manufacturing,47,10,21.276595744680851064,51,2
+321214,Truss Manufacturing,14,3,21.428571428571428571,46,1
+62322X,Residential Mental Health And Substance Abuse Facilities,28,6,21.428571428571428571,52,2
+81291X,Pet Care (Except Veterinary) Services,14,3,21.428571428571428571,52,3
+81393X,Labor Unions And Similar Labor Organizations,14,3,21.428571428571428571,52,3
+49311X,General Warehousing And Storage,107,23,21.495327102803738318,51,5
+92612X,Regulation And Administration Of Transportation Programs,93,20,21.505376344086021505,52,8
+11142X,Nursery And Floriculture Production,102,22,21.568627450980392157,47,4
+4248XX,"Beer, Wine, And Distilled Alcoholic Beverage Merchant Wholesalers",46,10,21.739130434782608696,52,3
+8139XX,"Business, Professional, Labor, Political, And Similar Organizations",46,10,21.739130434782608696,52,8
+22112X,"Electric Power Transmission, Control, And Distribution",183,40,21.857923497267759563,51,18
+2379XX,Other Heavy And Civil Engineering Construction,159,35,22.012578616352201258,52,12
+324121,Asphalt Paving Mixture And Block Manufacturing,18,4,22.222222222222222222,38,3
+3331XX,"Agriculture, Construction, And Mining Machinery Manufacturing",63,14,22.222222222222222222,47,7
+42452X,Livestock Merchant Wholesalers,9,2,22.222222222222222222,42,2
+6242XX,"Community Food And Housing, And Emergency And Other Relief Services",27,6,22.222222222222222222,52,5
+71392X,Skiing Facilities,9,2,22.222222222222222222,32,2
+42451X,Grain And Field Bean Merchant Wholesalers,103,23,22.330097087378640777,43,5
+711219,Other Spectator Sports,134,30,22.388059701492537313,50,4
+33995X,Sign Manufacturing,49,11,22.448979591836734694,50,5
+23721X,Land Subdivision,22,5,22.727272727272727273,52,3
+2372XX,Land Subdivision,22,5,22.727272727272727273,52,3
+33441X,Semiconductor And Other Electronic Component Manufacturing,22,5,22.727272727272727273,49,1
+3344XX,Semiconductor And Other Electronic Component Manufacturing,22,5,22.727272727272727273,49,1
+4879XX,"Scenic And Sightseeing Transportation, Other",22,5,22.727272727272727273,33,3
+562211,Hazardous Waste Treatment And Disposal,22,5,22.727272727272727273,44,4
+621511,Medical Laboratories,22,5,22.727272727272727273,52,3
+81231X,Coin-Operated Laundries And Drycleaners,22,5,22.727272727272727273,50,3
+49221X,Local Messengers And Local Delivery,79,18,22.784810126582278481,52,10
+4922XX,Local Messengers And Local Delivery,79,18,22.784810126582278481,52,10
+3241XX,Petroleum And Coal Products Manufacturing,83,19,22.891566265060240964,50,9
+324XXX,Petroleum And Coal Products Manufacturing,83,19,22.891566265060240964,50,9
+45331X,Used Merchandise Stores,61,14,22.950819672131147541,52,9
+4533XX,Used Merchandise Stores,61,14,22.950819672131147541,52,9
+3359XX,Other Electrical Equipment And Component Manufacturing,13,3,23.076923076923076923,48,3
+62221X,Psychiatric And Substance Abuse Hospitals,13,3,23.076923076923076923,41,2
+6222XX,Psychiatric And Substance Abuse Hospitals,13,3,23.076923076923076923,41,2
+32732X,Ready-Mix Concrete Manufacturing,164,38,23.170731707317073171,52,8
+32619X,Other Plastics Product Manufacturing,56,13,23.214285714285714286,50,4
+512XXX,Motion Picture And Sound Recording Industries,56,13,23.214285714285714286,52,6
+72111X,Hotels (Except Casino Hotels) And Motels,224,52,23.214285714285714286,52,16
+61131X,"Colleges, Universities, And Professional Schools",197,46,23.350253807106598985,52,15
+6113XX,"Colleges, Universities, And Professional Schools",197,46,23.350253807106598985,52,15
+33242X,Metal Tank (Heavy Gauge) Manufacturing,17,4,23.529411764705882353,41,4
+33611X,Automobile And Light Duty Motor Vehicle Manufacturing,25,6,24,21,3
+339XXX,Miscellaneous Manufacturing,100,24,24,52,7
+485113,Bus And Other Motor Vehicle Transit Systems,25,6,24,41,2
+312XXX,Beverage And Tobacco Product Manufacturing,79,19,24.050632911392405063,51,7
+4249XX,Miscellaneous Nondurable Goods Merchant Wholesalers,170,41,24.117647058823529412,52,15
+48321X,Inland Water Transportation,62,15,24.193548387096774194,33,3
+4832XX,Inland Water Transportation,62,15,24.193548387096774194,33,3
+4247XX,Petroleum And Petroleum Products Merchant Wholesalers,140,34,24.285714285714285714,51,9
+56221X,Waste Treatment And Disposal,152,37,24.342105263157894737,50,13
+5622XX,Waste Treatment And Disposal,152,37,24.342105263157894737,50,13
+3121XX,Beverage Manufacturing,78,19,24.358974358974358974,40,6
+62211X,General Medical And Surgical Hospitals,246,60,24.39024390243902439,52,15
+6221XX,General Medical And Surgical Hospitals,246,60,24.39024390243902439,52,15
+325XXX,Chemical Manufacturing,248,61,24.596774193548387097,52,13
+111421,Nursery And Tree Production,85,21,24.705882352941176471,51,5
+71391X,Golf Courses And Country Clubs,129,32,24.806201550387596899,51,9
+448XXX,Clothing And Clothing Accessories Stores,133,33,24.812030075187969925,52,12
+3261XX,Plastics Product Manufacturing,137,34,24.817518248175182482,48,11
+212111,Bituminous Coal And Lignite Surface Mining,40,10,25,22,5
+236116,New Multifamily Housing Construction (Except Operative Builders),84,21,25,52,5
+31171X,Seafood Product Preparation And Packaging,24,6,25,33,1
+3117XX,Seafood Product Preparation And Packaging,24,6,25,33,1
+311942,Spice And Extract Manufacturing,4,1,25,32,1
+31212X,Breweries,4,1,25,41,1
+322122,Newsprint Mills,4,1,25,6,1
+32222X,Paper Bag And Coated And Treated Paper Manufacturing,4,1,25,40,1
+32223X,Stationery Product Manufacturing,4,1,25,38,1
+323113,Commercial Screen Printing,4,1,25,51,1
+32419X,Other Petroleum And Coal Products Manufacturing,4,1,25,34,1
+325211,Plastics Material And Resin Manufacturing,24,6,25,36,2
+32521X,Resin And Synthetic Rubber Manufacturing,24,6,25,38,2
+325312,Phosphatic Fertilizer Manufacturing,4,1,25,7,1
+33131X,Alumina And Aluminum Production And Processing,16,4,25,36,3
+3313XX,Alumina And Aluminum Production And Processing,16,4,25,36,3
+332321,Metal Window And Door Manufacturing,4,1,25,45,1
+33272X,"Turned Product And Screw, Nut, And Bolt Manufacturing",4,1,25,44,1
+333995,Fluid Power Cylinder And Actuator Manufacturing,4,1,25,32,1
+42373X,Warm Air Heating And Air-Conditioning Equipment And Supplies Merchant Wholesalers,4,1,25,49,1
+42413X,Industrial And Personal Service Paper Merchant Wholesalers,4,1,25,50,1
+42446X,Fish And Seafood Merchant Wholesalers,8,2,25,43,2
+4244XX,Grocery And Related Product Wholesalers,280,70,25,52,16
+44121X,Recreational Vehicle Dealers,4,1,25,49,1
+4441XX,Building Material And Supplies Dealers,252,63,25,52,15
+445291,Baked Goods Stores,4,1,25,50,1
+48521X,Interurban And Rural Bus Transportation,4,1,25,41,1
+4852XX,Interurban And Rural Bus Transportation,4,1,25,41,1
+4869XX,Other Pipeline Transportation,4,1,25,27,1
+5121XX,Motion Picture And Video Industries,40,10,25,51,6
+51511X,Radio Broadcasting,4,1,25,52,1
+562112,Hazardous Waste Collection,8,2,25,45,1
+62139X,Offices Of All Other Health Practitioners,4,1,25,52,1
+71211X,Museums,12,3,25,52,2
+71213X,Zoos And Botanical Gardens,4,1,25,42,1
+72112X,Casino Hotels,16,4,25,24,2
+811211,Consumer Electronics Repair And Maintenance,4,1,25,51,1
+623XXX,Nursing And Residential Care Facilities,214,54,25.233644859813084112,52,16
+4238XX,"Machinery, Equipment, And Supplies Merchant Wholesalers",272,69,25.367647058823529412,52,16
+812112,Beauty Salons,51,13,25.490196078431372549,52,8
+62111X,Offices Of Physicians,101,26,25.742574257425742574,52,9
+6211XX,Offices Of Physicians,101,26,25.742574257425742574,52,9
+42472X,Petroleum And Petroleum Products Merchant Wholesalers (Except Bulk Stations And Terminals),104,27,25.961538461538461538,51,9
+71132X,"Promoters Of Performing Arts, Sports, And Similar Events Without Facilities",23,6,26.086956521739130435,51,6
+92114X,"Executive And Legislative Offices, Combined",19,5,26.315789473684210526,40,1
+313XXX,Textile Mills,34,9,26.470588235294117647,48,2
+238141,Residential Masonry Contractors,79,21,26.582278481012658228,52,5
+212221,Gold Ore Mining,15,4,26.666666666666666667,9,1
+92214X,Correctional Institutions,150,40,26.666666666666666667,49,12
+7131XX,Amusement Parks And Arcades,52,14,26.923076923076923077,50,1
+7211XX,Traveler Accommodation,260,70,26.923076923076923077,52,18
+81119X,Other Automotive Repair And Maintenance,130,35,26.923076923076923077,52,8
+7121XX,"Museums, Historical Sites, And Similar Institutions",100,27,27,52,10
+712XXX,"Museums, Historical Sites, And Similar Institutions",100,27,27,52,10
+11121X,Vegetable And Melon Farming,137,37,27.007299270072992701,48,8
+1112XX,Vegetable And Melon Farming,137,37,27.007299270072992701,48,8
+3399XX,Other Miscellaneous Manufacturing,85,23,27.058823529411764706,52,6
+3114XX,Fruit And Vegetable Preserving And Specialty Food Manufacturing,48,13,27.083333333333333333,49,5
+238122,Nonresidential Structural Steel And Precast Concrete Contractors,158,43,27.215189873417721519,51,7
+238352,Nonresidential Finish Carpentry Contractors,11,3,27.272727272727272727,52,1
+3132XX,Fabric Mills,11,3,27.272727272727272727,41,1
+33313X,Mining And Oil And Gas Field Machinery Manufacturing,33,9,27.272727272727272727,37,3
+45211X,Department Stores,99,27,27.272727272727272727,52,9
+4521XX,Department Stores,99,27,27.272727272727272727,52,9
+3118XX,Bakeries And Tortilla Manufacturing,84,23,27.380952380952380952,52,8
+2122XX,Metal Ore Mining,51,14,27.450980392156862745,22,2
+81211X,"Hair, Nail, And Skin Care Services",116,32,27.586206896551724138,52,15
+238211,Residential Electrical Contractors,76,21,27.631578947368421053,52,5
+1114XX,"Greenhouse, Nursery, And Floriculture Production",123,34,27.642276422764227642,50,7
+4543XX,Direct Selling Establishments,165,46,27.878787878787878788,52,11
+33639X,Other Motor Vehicle Parts Manufacturing,25,7,28,43,4
+42393X,Recyclable Material Merchant Wholesalers,225,63,28,51,17
+48511X,Urban Transit Systems,100,28,28,46,7
+4851XX,Urban Transit Systems,100,28,28,46,7
+4245XX,Farm Product Raw Material Merchant Wholesalers,132,37,28.030303030303030303,48,10
+31142X,"Fruit And Vegetable Canning, Pickling, And Drying",32,9,28.125,41,5
+624XXX,Social Assistance,261,74,28.352490421455938697,52,20
+11251X,Animal Aquaculture,7,2,28.571428571428571429,39,2
+1125XX,Animal Aquaculture,7,2,28.571428571428571429,39,2
+115113,"Crop Harvesting, Primarily By Machine",21,6,28.571428571428571429,37,2
+238131,Residential Framing Contractors,91,26,28.571428571428571429,52,1
+238311,Residential Drywall And Insulation Contractors,42,12,28.571428571428571429,52,3
+311421,Fruit And Vegetable Canning,28,8,28.571428571428571429,39,3
+33291X,Metal Valve Manufacturing,7,2,28.571428571428571429,41,2
+42443X,Dairy Product (Except Dried Or Canned) Merchant Wholesalers,7,2,28.571428571428571429,51,2
+52311X,Investment Banking And Securities Dealing,7,2,28.571428571428571429,52,1
+54119X,Other Legal Services,7,2,28.571428571428571429,52,1
+62199X,All Other Ambulatory Health Care Services,7,2,28.571428571428571429,51,2
+81219X,Other Personal Care Services,28,8,28.571428571428571429,52,3
+49111X,Postal Service,177,51,28.813559322033898305,52,18
+4911XX,Postal Service,177,51,28.813559322033898305,52,18
+491XXX,Postal Service,177,51,28.813559322033898305,52,18
+22132X,Sewage Treatment Facilities,38,11,28.947368421052631579,45,5
+81311X,Religious Organizations,224,65,29.017857142857142857,52,21
+8131XX,Religious Organizations,224,65,29.017857142857142857,52,21
+71311X,Amusement And Theme Parks,48,14,29.166666666666666667,46,1
+622XXX,Hospitals,283,83,29.328621908127208481,52,17
+115111,Cotton Ginning,17,5,29.411764705882352941,17,3
+325998,All Other Miscellaneous Chemical Product And Preparation Manufacturing,17,5,29.411764705882352941,47,1
+32599X,All Other Chemical Product And Preparation Manufacturing,34,10,29.411764705882352941,46,6
+623312,Homes For The Elderly,17,5,29.411764705882352941,52,4
+452XXX,General Merchandise Stores,193,57,29.533678756476683938,52,18
+8121XX,Personal Care Services,152,45,29.605263157894736842,52,16
+238112,Nonresidential Poured Concrete Foundation And Structure Contractors,57,17,29.82456140350877193,52,2
+23831X,Drywall And Insulation Contractors,211,63,29.857819905213270142,52,10
+111339,Other Noncitrus Fruit Farming,30,9,30,23,1
+115116,Farm Management Services,10,3,30,38,1
+51213X,Motion Picture And Video Exhibition,10,3,30,52,3
+561491,Repossession Services,10,3,30,48,3
+532XXX,Rental And Leasing Services,233,70,30.042918454935622318,51,13
+336611,Ship Building And Repairing,73,22,30.136986301369863014,31,7
+333XXX,Machinery Manufacturing,245,74,30.204081632653061224,52,18
+111331,Apple Orchards,23,7,30.434782608695652174,32,2
+51111X,Newspaper Publishers,220,67,30.454545454545454545,52,13
+4413XX,"Automotive Parts, Accessories, And Tire Stores",216,66,30.555555555555555556,52,13
+238312,Nonresidential Drywall And Insulation Contractors,49,15,30.612244897959183673,52,4
+11311X,Timber Tract Operations,13,4,30.769230769230769231,25,2
+1131XX,Timber Tract Operations,13,4,30.769230769230769231,25,2
+454XXX,Nonstore Retailers,195,60,30.769230769230769231,52,14
+541211,Offices Of Certified Public Accountants,13,4,30.769230769230769231,52,4
+54192X,Photographic Services,13,4,30.769230769230769231,52,4
+4239XX,Miscellaneous Durable Goods Merchant Wholesalers,275,85,30.909090909090909091,52,19
+721XXX,Accommodation,330,102,30.909090909090909091,52,22
+492XXX,Couriers And Messengers,274,85,31.021897810218978102,52,20
+621111,Offices Of Physicians (Except Mental Health Specialists),77,24,31.168831168831168831,52,8
+3273XX,Cement And Concrete Product Manufacturing,279,87,31.182795698924731183,52,19
+336111,Automobile Manufacturing,16,5,31.25,22,2
+311712,Fresh And Frozen Seafood Processing,19,6,31.578947368421052632,23,1
+4411XX,Automobile Dealers,307,98,31.921824104234527687,52,15
+311612,Meat Processed From Carcasses,25,8,32,48,3
+53131X,Real Estate Property Managers,131,42,32.061068702290076336,52,10
+335XXX,"Electrical Equipment, Appliance, And Component Manufacturing",56,18,32.142857142857142857,51,12
+11194X,Hay Farming,102,33,32.352941176470588235,41,11
+5313XX,Activities Related To Real Estate,139,45,32.374100719424460432,52,11
+326XXX,Plastics And Rubber Products Manufacturing,178,58,32.584269662921348315,50,12
+23812X,Structural Steel And Precast Concrete Contractors,287,94,32.752613240418118467,52,13
+111199,All Other Grain Farming,9,3,33.333333333333333333,39,1
+111211,Potato Farming,18,6,33.333333333333333333,38,4
+11234X,Poultry Hatcheries,3,1,33.333333333333333333,26,1
+112511,Finfish Farming And Fish Hatcheries,6,2,33.333333333333333333,33,2
+238341,Residential Tile And Terrazzo Contractors,3,1,33.333333333333333333,49,1
+238392,Other Nonresidential Building Finishing Contractors,6,2,33.333333333333333333,52,1
+31122X,Starch And Vegetable Fats And Oils Manufacturing,12,4,33.333333333333333333,35,2
+31181X,Bread And Bakery Product Manufacturing,72,24,33.333333333333333333,50,8
+32614X,Polystyrene Foam Product Manufacturing,3,1,33.333333333333333333,40,1
+332111,Iron And Steel Forging,6,2,33.333333333333333333,36,2
+42313X,Tire And Tube Merchant Wholesalers,3,1,33.333333333333333333,47,1
+44522X,Fish And Seafood Markets,3,1,33.333333333333333333,43,1
+45421X,Vending Machine Operators,6,2,33.333333333333333333,52,2
+4542XX,Vending Machine Operators,6,2,33.333333333333333333,52,2
+481212,Nonscheduled Chartered Freight Air Transportation,21,7,33.333333333333333333,42,1
+488991,Packing And Crating,3,1,33.333333333333333333,43,1
+5111XX,"Newspaper, Periodical, Book, And Directory Publishers",246,82,33.333333333333333333,52,15
+51211X,Motion Picture And Video Production,18,6,33.333333333333333333,52,3
+55111X,Management Of Companies And Enterprises,6,2,33.333333333333333333,52,2
+5511XX,Management Of Companies And Enterprises,6,2,33.333333333333333333,52,2
+551XXX,Management Of Companies And Enterprises,6,2,33.333333333333333333,52,2
+56174X,Carpet And Upholstery Cleaning Services,9,3,33.333333333333333333,52,3
+62131X,Offices Of Chiropractors,3,1,33.333333333333333333,52,1
+92115X,American Indian And Alaska Native Tribal Governments,6,2,33.333333333333333333,22,2
+453XXX,Miscellaneous Store Retailers,214,72,33.64485981308411215,52,16
+511XXX,Publishing Industries (Except Internet),255,86,33.725490196078431373,52,15
+5413XX,"Architectural, Engineering, And Related Services",314,106,33.757961783439490446,52,14
+23713X,Power And Communication Line And Related Structures Construction,307,104,33.876221498371335505,52,17
+48832X,Marine Cargo Handling,109,37,33.944954128440366972,35,7
+4931XX,Warehousing And Storage,198,68,34.343434343434343434,52,9
+493XXX,Warehousing And Storage,198,68,34.343434343434343434,52,9
+11111X,Soybean Farming,26,9,34.615384615384615385,27,5
+444XXX,Building Material And Garden Equipment And Supplies Dealers,349,121,34.670487106017191977,52,21
+333132,Oil And Gas Field Machinery And Equipment Manufacturing,23,8,34.782608695652173913,16,2
+33661X,Ship And Boat Building,92,32,34.782608695652173913,42,8
+3366XX,Ship And Boat Building,92,32,34.782608695652173913,42,8
+23813X,Framing Contractors,203,71,34.975369458128078818,51,10
+722211,Limited-Service Restaurants,378,133,35.185185185185185185,52,13
+56132X,Temporary Help Services,159,56,35.220125786163522013,52,13
+2211XX,"Electric Power Generation, Transmission And Distribution",298,105,35.234899328859060403,52,23
+483113,Coastal And Great Lakes Freight Transportation,17,6,35.294117647058823529,23,2
+811118,Other Automotive Mechanical And Electrical Repair And Maintenance,17,6,35.294117647058823529,50,1
+44531X,"Beer, Wine, And Liquor Stores",76,27,35.526315789473684211,52,7
+4453XX,"Beer, Wine, And Liquor Stores",76,27,35.526315789473684211,52,7
+238992,All Other Nonresidential Specialty Trade Contractors,104,37,35.576923076923076923,52,5
+238221,"Residential Plumbing, Heating, And Air-Conditioning Contractors",140,50,35.714285714285714286,52,8
+33149X,"Nonferrous Metal (Except Copper And Aluminum) Rolling, Drawing, Extruding, And Alloying",14,5,35.714285714285714286,31,1
+238222,"Nonresidential Plumbing, Heating, And Air-Conditioning Contractors",153,55,35.947712418300653595,52,8
+72211X,Full-Service Restaurants,381,137,35.958005249343832021,52,14
+7221XX,Full-Service Restaurants,381,137,35.958005249343832021,52,14
+61151X,Technical And Trade Schools,186,67,36.021505376344086022,51,17
+6115XX,Technical And Trade Schools,186,67,36.021505376344086022,51,17
+611512,Flight Training,177,64,36.158192090395480226,46,17
+11291X,Apiculture,11,4,36.363636363636363636,26,2
+238321,Residential Painting And Wall Covering Contractors,110,40,36.363636363636363636,52,7
+48121X,Nonscheduled Air Transportation,274,100,36.49635036496350365,51,25
+4812XX,Nonscheduled Air Transportation,274,100,36.49635036496350365,51,25
+33641X,Aerospace Product And Parts Manufacturing,71,26,36.61971830985915493,47,6
+3364XX,Aerospace Product And Parts Manufacturing,71,26,36.61971830985915493,47,6
+211111,Crude Petroleum And Natural Gas Extraction,131,48,36.641221374045801527,37,5
+32511X,Petrochemical Manufacturing,8,3,37.5,11,1
+33311X,Agricultural Implement Manufacturing,8,3,37.5,41,2
+5615XX,Travel Arrangement And Reservation Services,8,3,37.5,52,3
+92112X,Legislative Bodies,8,3,37.5,39,3
+32411X,Petroleum Refineries,37,14,37.837837837837837838,38,5
+7139XX,Other Amusement And Recreation Industries,333,126,37.837837837837837838,52,22
+3363XX,Motor Vehicle Parts Manufacturing,87,33,37.93103448275862069,50,6
+23621X,Industrial Building Construction,168,64,38.095238095238095238,52,10
+331111,Iron And Steel Mills,86,33,38.372093023255813953,34,3
+42481X,Beer And Ale Merchant Wholesalers,26,10,38.461538461538461538,47,3
+72233X,Mobile Food Services,39,15,38.461538461538461538,52,6
+53111X,Lessors Of Residential Buildings And Dwellings,188,73,38.829787234042553191,52,12
+481XXX,Air Transportation,382,152,39.790575916230366492,52,32
+483111,Deep Sea Freight Transportation,98,39,39.795918367346938776,23,4
+31121X,Flour Milling And Malt Manufacturing,5,2,40,36,2
+31191X,Snack Food Manufacturing,5,2,40,39,2
+31194X,Seasoning And Dressing Manufacturing,5,2,40,43,2
+33531X,Electrical Equipment Manufacturing,20,8,40,47,4
+3353XX,Electrical Equipment Manufacturing,20,8,40,47,4
+42333X,"Roofing, Siding, And Insulation Material Merchant Wholesalers",5,2,40,49,2
+42342X,Office Equipment Merchant Wholesalers,5,2,40,52,2
+44812X,Women'S Clothing Stores,5,2,40,52,2
+53223X,Video Tape And Disc Rental,5,2,40,52,2
+541921,"Photography Studios, Portrait",5,2,40,51,2
+561311,Employment Placement Agencies,5,2,40,51,2
+811191,Automotive Oil Change And Lubrication Shops,5,2,40,51,2
+11531X,Support Activities For Forestry,97,39,40.206185567010309278,47,5
+1153XX,Support Activities For Forestry,97,39,40.206185567010309278,47,5
+23811X,Poured Concrete Foundation And Structure Contractors,242,99,40.909090909090909091,52,10
+72221X,Limited-Service Eating Places,447,183,40.939597315436241611,52,15
+7222XX,Limited-Service Eating Places,447,183,40.939597315436241611,52,15
+23814X,Masonry Contractors,333,137,41.141141141141141141,52,15
+61111X,Elementary And Secondary Schools,384,159,41.40625,52,24
+6111XX,Elementary And Secondary Schools,384,159,41.40625,52,24
+23899X,All Other Specialty Trade Contractors,342,142,41.520467836257309942,52,20
+71121X,Spectator Sports,255,107,41.960784313725490196,52,20
+7112XX,Spectator Sports,255,107,41.960784313725490196,52,20
+31321X,Broadwoven Fabric Mills,7,3,42.857142857142857143,28,1
+321XXX,Wood Product Manufacturing,333,144,43.243243243243243243,51,20
+484122,"General Freight Trucking, Long-Distance, Less Than Truckload",270,117,43.333333333333333333,50,20
+327XXX,Nonmetallic Mineral Product Manufacturing,407,177,43.488943488943488943,52,25
+812XXX,Personal And Laundry Services,386,168,43.523316062176165803,52,21
+221121,Electric Bulk Power Transmission And Control,16,7,43.75,33,2
+5311XX,Lessors Of Real Estate,268,118,44.029850746268656716,52,17
+238912,Nonresidential Site Preparation Contractors,279,123,44.086021505376344086,52,20
+33261X,Spring And Wire Product Manufacturing,9,4,44.444444444444444444,44,2
+3326XX,Spring And Wire Product Manufacturing,9,4,44.444444444444444444,44,2
+54162X,Environmental Consulting Services,9,4,44.444444444444444444,52,3
+711211,Sports Teams And Clubs,9,4,44.444444444444444444,50,4
+236115,New Single-Family Housing Construction (Except Operative Builders),409,182,44.498777506112469438,52,24
+92216X,Fire Protection,409,182,44.498777506112469438,49,26
+331XXX,Primary Metal Manufacturing,263,118,44.866920152091254753,51,13
+48841X,Motor Vehicle Towing,306,141,46.078431372549019608,51,21
+48311X,"Deep Sea, Coastal, And Great Lakes Water Transportation",141,65,46.099290780141843972,30,9
+4831XX,"Deep Sea, Coastal, And Great Lakes Water Transportation",141,65,46.099290780141843972,30,9
+115114,Postharvest Crop Activities (Except Cotton Ginning),13,6,46.153846153846153846,44,1
+238162,Nonresidential Roofing Contractors,169,78,46.153846153846153846,52,10
+813XXX,"Religious, Grantmaking, Civic, Professional, And Similar Organizations",374,173,46.256684491978609626,52,29
+33111X,Iron And Steel Mills And Ferroalloy Manufacturing,95,44,46.315789473684210526,38,8
+3311XX,Iron And Steel Mills And Ferroalloy Manufacturing,95,44,46.315789473684210526,38,8
+11192X,Cotton Farming,41,19,46.341463414634146341,16,2
+23711X,Water And Sewer Line And Related Structures Construction,433,202,46.651270207852193995,52,21
+238212,Nonresidential Electrical Contractors,272,127,46.691176470588235294,52,11
+72241X,Drinking Places (Alcoholic Beverages),304,142,46.710526315789473684,52,24
+7224XX,Drinking Places (Alcoholic Beverages),304,142,46.710526315789473684,52,24
+236118,Residential Remodelers,354,166,46.892655367231638418,52,21
+713XXX,"Amusement, Gambling, And Recreation Industries",410,193,47.073170731707317073,52,23
+114112,Shellfish Fishing,210,99,47.142857142857142857,17,11
+238161,Residential Roofing Contractors,229,108,47.161572052401746725,52,17
+11115X,Corn Farming,131,62,47.328244274809160305,40,10
+114111,Finfish Fishing,120,57,47.5,24,6
+4883XX,Support Activities For Water Transportation,212,101,47.641509433962264151,40,9
+483XXX,Water Transportation,209,100,47.846889952153110048,39,13
+621XXX,Ambulatory Health Care Services,556,275,49.460431654676258993,52,30
+221XXX,Utilities,490,244,49.795918367346938776,52,29
+23622X,Commercial And Institutional Building Construction,508,253,49.803149606299212598,52,30
+11193X,Sugarcane Farming,12,6,50,3,2
+21111X,Oil And Gas Extraction,184,92,50,40,9
+2111XX,Oil And Gas Extraction,184,92,50,40,9
+211XXX,Oil And Gas Extraction,184,92,50,40,9
+33999X,All Other Miscellaneous Manufacturing,10,5,50,51,3
+51791X,Other Telecommunications,8,4,50,50,3
+5179XX,Other Telecommunications,8,4,50,50,3
+52411X,"Direct Life, Health, And Medical Insurance Carriers",4,2,50,49,2
+92812X,International Affairs,18,9,50,52,2
+44711X,Gasoline Stations With Convenience Stores,346,174,50.289017341040462428,52,23
+44511X,Supermarkets And Other Grocery (Except Convenience) Stores,292,148,50.684931506849315068,52,13
+4471XX,Gasoline Stations,419,213,50.835322195704057279,52,27
+447XXX,Gasoline Stations,419,213,50.835322195704057279,52,27
+23832X,Painting And Wall Covering Contractors,418,213,50.956937799043062201,52,19
+4884XX,Support Activities For Road Transportation,408,210,51.470588235294117647,52,27
+561612,Security Guards And Patrol Services,299,154,51.505016722408026756,52,16
+332XXX,Fabricated Metal Product Manufacturing,482,252,52.282157676348547718,52,26
+711XXX,"Performing Arts, Spectator Sports, And Related Industries",456,239,52.412280701754385965,52,28
+562111,Solid Waste Collection,391,206,52.685421994884910486,52,22
+311XXX,Food Manufacturing,552,293,53.079710144927536232,52,27
+56161X,"Investigation, Guard, And Armored Car Services",349,187,53.58166189111747851,52,18
+48411X,"General Freight Trucking, Local",515,277,53.786407766990291262,51,32
+44512X,Convenience Stores,348,188,54.022988505747126437,52,22
+11191X,Tobacco Farming,53,29,54.716981132075471698,9,4
+56211X,Waste Collection,470,261,55.531914893617021277,52,25
+5621XX,Waste Collection,470,261,55.531914893617021277,52,25
+811111,General Automotive Repair,425,237,55.764705882352941176,52,23
+5616XX,Investigation And Security Services,387,216,55.813953488372093023,52,21
+441XXX,Motor Vehicle And Parts Dealers,600,337,56.166666666666666667,52,27
+23712X,Oil And Gas Pipeline And Related Structures Construction,175,99,56.571428571428571429,51,4
+48422X,"Specialized Freight (Except Used Goods) Trucking, Local",631,358,56.735340729001584786,51,34
+81111X,Automotive Mechanical And Electrical Repair And Maintenance,481,273,56.756756756756756757,52,23
+11141X,Food Crops Grown Under Cover,7,4,57.142857142857142857,38,1
+531XXX,Real Estate,512,293,57.2265625,52,26
+336XXX,Transportation Equipment Manufacturing,351,201,57.264957264957264957,52,18
+115XXX,Support Activities For Agriculture And Forestry,441,253,57.369614512471655329,51,21
+23822X,"Plumbing, Heating, And Air-Conditioning Contractors",597,344,57.621440536013400335,52,27
+3113XX,Sugar And Confectionery Product Manufacturing,24,14,58.333333333333333333,47,1
+212XXX,Mining (Except Oil And Gas),499,292,58.517034068136272545,50,22
+11511X,Support Activities For Crop Production,277,166,59.927797833935018051,49,15
+1151XX,Support Activities For Crop Production,277,166,59.927797833935018051,49,15
+111334,Berry (Except Strawberry) Farming,5,3,60,19,2
+1111XX,Oilseed And Grain Farming,374,235,62.834224598930481283,43,18
+23821X,Electrical Contractors,749,473,63.150867823765020027,52,29
+541XXX,"Professional, Scientific, And Technical Services",798,504,63.157894736842105263,52,31
+327993,Mineral Wool Manufacturing,11,7,63.636363636363636364,29,1
+2362XX,Nonresidential Building Construction,727,465,63.961485557083906465,52,34
+5613XX,Employment Services,328,212,64.634146341463414634,52,14
+48531X,Taxi Service,470,304,64.680851063829787234,52,26
+111335,Tree Nut Farming,17,11,64.705882352941176471,11,1
+112111,Beef Cattle Ranching And Farming,407,265,65.110565110565110565,46,23
+11211X,"Beef Cattle Ranching And Farming, Including Feedlots",470,308,65.531914893617021277,47,24
+11212X,Dairy Cattle And Milk Production,424,281,66.273584905660377358,49,17
+11119X,Other Grain Farming,78,52,66.666666666666666667,42,3
+44229X,Other Home Furnishings Stores,3,2,66.666666666666666667,52,2
+92811X,National Security,603,404,66.998341625207296849,52,25
+424XXX,"Merchant Wholesalers, Nondurable Goods",891,597,67.003367003367003367,52,40
+48423X,"Specialized Freight (Except Used Goods) Trucking, Long-Distance",633,425,67.140600315955766193,49,33
+8111XX,Automotive Repair And Maintenance,771,519,67.315175097276264591,52,28
+9281XX,National Security And International Affairs,636,429,67.452830188679245283,52,25
+928XXX,National Security And International Affairs,636,429,67.452830188679245283,52,25
+4853XX,Taxi And Limousine Service,511,347,67.906066536203522505,52,27
+11411X,Fishing,440,299,67.954545454545454545,30,16
+488XXX,Support Activities For Transportation,825,561,68,52,32
+1141XX,Fishing,441,302,68.48072562358276644,30,17
+23891X,Site Preparation Contractors,881,604,68.558456299659477866,52,37
+611XXX,Educational Services,875,600,68.571428571428571429,52,40
+114XXX,"Fishing, Hunting And Trapping",448,311,69.419642857142857143,44,17
+2371XX,Utility System Construction,924,647,70.021645021645021645,52,35
+562XXX,Waste Management And Remediation Services,800,564,70.5,52,35
+11133X,Noncitrus Fruit And Tree Nut Farming,148,105,70.945945945945945946,44,7
+23816X,Roofing Contractors,845,602,71.242603550295857988,52,30
+624221,Temporary Shelters,7,5,71.428571428571428571,51,4
+1113XX,Fruit And Tree Nut Farming,191,137,71.72774869109947644,44,8
+213111,Drilling Oil And Gas Wells,354,255,72.033898305084745763,43,11
+4451XX,Grocery Stores,674,487,72.255192878338278932,52,25
+115115,Farm Labor Contractors And Crew Leaders,87,64,73.563218390804597701,36,3
+31131X,Sugar Manufacturing,19,14,73.684210526315789474,11,
+23611X,Residential Building Construction,1074,794,73.929236499068901304,52,36
+2361XX,Residential Building Construction,1074,794,73.929236499068901304,52,36
+485XXX,Transit And Ground Passenger Transportation,777,575,74.002574002574002574,52,30
+2383XX,Building Finishing Contractors,956,709,74.163179916317991632,52,36
+423XXX,"Merchant Wholesalers, Durable Goods",1021,762,74.632713026444662096,52,38
+21223X,"Copper, Nickel, Lead, And Zinc Mining",4,3,75,5,1
+485112,Commuter Rail Systems,4,3,75,3,
+512131,Motion Picture Theaters (Except Drive-Ins),4,3,75,42,3
+62422X,Community Housing Services,8,6,75,52,5
+92215X,Parole Offices And Probation Offices,4,3,75,29,1
+1119XX,Other Crop Farming,658,502,76.291793313069908815,48,24
+11331X,Logging,846,648,76.59574468085106383,47,30
+1133XX,Logging,846,648,76.59574468085106383,47,30
+445XXX,Food And Beverage Stores,832,642,77.163461538461538462,52,30
+113XXX,Forestry And Logging,890,688,77.303370786516853933,47,28
+811XXX,Repair And Maintenance,1107,856,77.326106594399277326,52,34
+212112,Bituminous Coal Underground Mining,168,131,77.97619047619047619,11,8
+21211X,Coal Mining,264,206,78.030303030303030303,20,9
+2389XX,Other Specialty Trade Contractors,1227,958,78.07660961695191524,52,39
+2121XX,Coal Mining,268,212,79.104477611940298507,20,9
+111411,Mushroom Production,5,4,80,9,1
+811113,Automotive Transmission Repair,5,4,80,50,2
+23731X,"Highway, Street, And Bridge Construction",1270,1018,80.157480314960629921,52,42
+2373XX,"Highway, Street, And Bridge Construction",1270,1018,80.157480314960629921,52,42
+1121XX,Cattle Ranching And Farming,1182,950,80.372250423011844332,50,36
+11199X,All Other Crop Farming,423,340,80.378250591016548463,47,12
+111998,All Other Misc Crop Farming,353,290,82.152974504249291785,47,6
+4842XX,Specialized Freight Trucking,1409,1158,82.185947480482611781,52,40
+92212X,Police Protection,1355,1116,82.361623616236162362,52,44
+722XXX,Food Services And Drinking Places,1236,1021,82.605177993527508091,52,37
+2382XX,Building Equipment Contractors,1464,1222,83.469945355191256831,52,41
+213112,Support Activities For Oil And Gas Operations,539,451,83.673469387755102041,44,13
+21311X,Support Activities For Mining,926,790,85.313174946004319654,43,18
+2131XX,Support Activities For Mining,926,790,85.313174946004319654,43,18
+213XXX,Support Activities For Mining,926,790,85.313174946004319654,43,18
+112XXX,Animal Production,1532,1314,85.770234986945169713,51,41
+56173X,Landscaping Services,1631,1399,85.775597792765174739,52,40
+111191,Oilseed And Grain Combination Farming,53,46,86.792452830188679245,34,2
+236XXX,Construction Of Buildings,1938,1690,87.203302373581011352,52,46
+336413,Other Aircraft Parts And Auxiliary Equipment Manufacturing,8,7,87.5,39,
+484121,"General Freight Trucking, Long-Distance, Truckload",1620,1419,87.592592592592592593,49,40
+111332,Grape Vineyards,17,15,88.235294117647058824,17,2
+5617XX,Services To Buildings And Dwellings,2032,1799,88.533464566929133858,52,41
+2381XX,"Foundation, Structure, And Building Exterior Contractors",2172,1954,89.963167587476979742,52,41
+9221XX,"Justice, Public Order, And Safety Activities",1987,1808,90.991444388525415199,52,47
+922XXX,"Justice, Public Order, And Safety Activities",1987,1808,90.991444388525415199,52,47
+237XXX,Heavy And Civil Engineering Construction,2400,2215,92.291666666666666667,52,47
+56133X,Professional Employer Organizations,143,133,93.006993006993006993,51,2
+48412X,"General Freight Trucking, Long-Distance",2557,2384,93.234258897145091905,50,42
+561XXX,Administrative And Support Services,2932,2767,94.372442019099590723,52,46
+111XXX,Crop Production,2974,2822,94.889038332212508406,51,38
+4841XX,General Freight Trucking,3359,3211,95.593926763917832688,52,45
+238XXX,Specialty Trade Contractors,5890,5772,97.996604414261460102,52,51
+484XXX,Truck Transportation,5055,4958,98.081107814045499505,52,48
+11132X,Citrus (Except Orange) Groves,9,9,100,5,1
+11242X,Goat Farming,1,1,100,7,1
+11321X,Forest Nurseries And Gathering Of Forest Products,5,5,100,25,1
+1132XX,Forest Nurseries And Gathering Of Forest Products,5,5,100,25,1
+211112,Natural Gas Liquid Extraction,4,4,100,21,2
+212234,Copper Ore And Nickel Ore Mining,3,3,100,2,
+212325,Clay And Ceramic And Refractory Minerals Mining,1,1,100,18,1
+238291,Other Residential Building Equipment Contractors,1,1,100,51,1
+311211,Flour Milling,2,2,100,34,2
+311221,Wet Corn Milling,1,1,100,6,1
+311423,Dried And Dehydrated Food Manufacturing,1,1,100,10,
+311911,Roasted Nuts And Peanut Butter Manufacturing,2,2,100,22,1
+3133XX,Textile And Fabric Finishing And Fabric Coating Mills,5,5,100,42,1
+32513X,Synthetic Dye And Pigment Manufacturing,1,1,100,20,1
+32532X,Pesticide And Other Agricultural Chemical Manufacturing,1,1,100,35,1
+325992,"Photographic Film, Paper, Plate, And Chemical Manufacturing",1,1,100,36,1
+32616X,Plastics Bottle Manufacturing,1,1,100,36,1
+326212,Tire Retreading,1,1,100,34,1
+326291,Rubber Product Manufacturing For Mechanical Use,5,5,100,33,1
+32629X,Other Rubber Product Manufacturing,5,5,100,42,1
+327211,Flat Glass Manufacturing,1,1,100,18,1
+331221,Rolled Steel Shape Manufacturing,2,2,100,31,2
+331314,Secondary Smelting And Alloying Of Aluminum,2,2,100,21,1
+331492,"Secondary Smelting, Refining, And Alloying Of Nonferrous Metal (Except Copper And Aluminum)",5,5,100,22,1
+33241X,Power Boiler And Heat Exchanger Manufacturing,1,1,100,27,1
+332911,Industrial Valve Manufacturing,2,2,100,32,2
+332991,Ball And Roller Bearing Manufacturing,1,1,100,22,1
+332992,Small Arms Ammunition Manufacturing,1,1,100,18,1
+332996,Fabricated Pipe And Pipe Fitting Manufacturing,1,1,100,39,1
+333994,Industrial Process Furnace And Oven Manufacturing,1,1,100,32,1
+33422X,Radio And Television Broadcasting And Wireless Communications Equipment Manufacturing,3,3,100,37,2
+3342XX,Communications Equipment Manufacturing,3,3,100,49,2
+334516,Analytical Laboratory Instrument Manufacturing,1,1,100,38,1
+335121,Residential Electric Lighting Fixture Manufacturing,1,1,100,36,1
+335122,"Commercial, Industrial, And Institutional Electric Lighting Fixture Manufacturing",1,1,100,30,1
+33512X,Lighting Fixture Manufacturing,3,3,100,41,2
+3351XX,Electric Lighting Equipment Manufacturing,3,3,100,42,3
+335221,Household Cooking Appliance Manufacturing,1,1,100,15,1
+33522X,Major Appliance Manufacturing,1,1,100,23,1
+3352XX,Household Appliance Manufacturing,1,1,100,30,1
+335311,"Power, Distribution, And Specialty Transformer Manufacturing",3,3,100,33,1
+335912,Primary Battery Manufacturing,1,1,100,10,1
+33591X,Battery Manufacturing,1,1,100,24,1
+33631X,Motor Vehicle Gasoline Engine And Engine Parts Manufacturing,1,1,100,44,1
+33636X,Motor Vehicle Seating And Interior Trim Manufacturing,1,1,100,31,1
+336412,Aircraft Engine And Engine Parts Manufacturing,1,1,100,31,1
+337214,Office Furniture (Except Wood) Manufacturing,1,1,100,30,1
+33791X,Mattress Manufacturing,1,1,100,34,1
+3379XX,Other Furniture Related Product Manufacturing,1,1,100,43,1
+339113,Surgical Appliance And Supplies Manufacturing,1,1,100,48,1
+33991X,Jewelry And Silverware Manufacturing,1,1,100,48,1
+33992X,Sporting And Athletic Goods Manufacturing,1,1,100,46,1
+339995,Burial Casket Manufacturing,1,1,100,22,1
+42346X,Ophthalmic Goods Merchant Wholesalers,1,1,100,50,1
+42394X,"Jewelry, Watch, Precious Stone, And Precious Metal Merchant Wholesalers",2,2,100,51,2
+42492X,"Book, Periodical, And Newspaper Merchant Wholesalers",2,2,100,52,2
+442291,Window Treatment Stores,1,1,100,51,1
+445292,Confectionery And Nut Stores,1,1,100,51,1
+446191,Food (Health) Supplement Stores,2,2,100,52,2
+44619X,Other Health And Personal Care Stores,2,2,100,52,2
+44815X,Clothing Accessories Stores,1,1,100,52,1
+44832X,Luggage And Leather Goods Stores,1,1,100,49,1
+45112X,"Hobby, Toy, And Game Stores",1,1,100,52,1
+451212,News Dealers And Newsstands,1,1,100,44,1
+454111,Electronic Shopping,2,2,100,51,1
+454113,Mail-Order Houses,1,1,100,51,1
+483112,Deep Sea Passenger Transportation,8,8,100,14,1
+483212,Inland Water Passenger Transportation,1,1,100,18,
+51119X,Other Publishers,1,1,100,47,1
+517911,Telecommunications Resellers,1,1,100,49,1
+51912X,Libraries And Archives,2,2,100,52,2
+51913X,Internet Publishing And Broadcasting And Web Search Portals,1,1,100,52,1
+5191XX,Other Information Services,3,3,100,52,3
+519XXX,Other Information Services,3,3,100,52,3
+524291,Claims Adjusting,2,2,100,52,1
+52429X,Other Insurance Related Activities,2,2,100,52,1
+52511X,Pension Funds,1,1,100,46,1
+5251XX,Insurance And Employee Benefit Funds,1,1,100,47,1
+532291,Home Health Equipment Rental,1,1,100,51,1
+54143X,Graphic Design Services,1,1,100,52,1
+54182X,Public Relations Agencies,1,1,100,52,1
+551114,"Corporate, Subsidiary, And Regional Managing Offices",2,2,100,52,2
+561611,Investigation Services,1,1,100,47,1
+56191X,Packaging And Labeling Services,1,1,100,48,1
+62132X,Offices Of Optometrists,1,1,100,52,1
+62134X,"Offices Of Physical, Occupational And Speech Therapists, And Audiologists",1,1,100,52,1
+621492,Kidney Dialysis Centers,1,1,100,48,1
+72131X,Rooming And Boarding Houses,1,1,100,52,1
+7213XX,Rooming And Boarding Houses,1,1,100,52,1
+811212,Computer And Office Machine Repair And Maintenance,2,2,100,52,2
+813312,"Environment, Conservation And Wildlife Organizations",1,1,100,52,1
+81392X,Professional Organizations,1,1,100,52,1
+92512X,Administration Of Urban Planning And Community And Rural Development,1,1,100,44,1
+92711X,Space Research And Technology,7,7,100,28,1
+9271XX,Space Research And Technology,7,7,100,28,1
+927XXX,Space Research And Technology,7,7,100,28,1
+31213X,Wineries,3,4,133.33333333333333,41,2
+323111,Commercial Gravure Printing,2,3,150,52,3
+333111,Farm Machinery And Equipment Manufacturing,2,3,150,36,2
+335991,Carbon And Graphite Product Manufacturing,1,2,200,19,1
+33599X,All Other Electrical Equipment And Component Manufacturing,1,2,200,45,1
+48711X,"Scenic And Sightseeing Transportation, Land",1,2,200,45,2
+4871XX,"Scenic And Sightseeing Transportation, Land",1,2,200,45,2
+524113,Direct Life Insurance Carriers,1,2,200,52,2
+541922,Commercial Photography,1,2,200,50,2
+81391X,Business Associations,1,2,200,52,1
+45411X,Electronic Shopping And Mail-Order Houses,1,3,300,52,2
+4541XX,Electronic Shopping And Mail-Order Houses,1,3,300,52,2

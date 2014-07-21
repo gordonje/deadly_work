@@ -67,16 +67,15 @@ if has_table(conn_string, 'cew', 'annual_averages') == False:
 
 	for i in range(2003, 2013):
 
-		in_file = os.getcwd() + '/' + str(i) + '.annual.singlefile.csv'
+		in_file = os.getcwd() + '/data/' + str(i) + '.annual.singlefile.csv'
 
 		with psycopg2.connect(conn_string) as conn:
 			with conn.cursor() as cur:
 				cur.execute('''COPY cew.annual_averages FROM %s DELIMITER ',' CSV HEADER;''', (in_file, ))
 
-				cur.execute('''DELETE 
-								FROM cew.annual_averages 
-								WHERE agglvl_code NOT IN (14, 15, 16, 17, 18,
-															54, 55, 56, 57, 58);''')
+# This table is too big, and the queries run very slow. So we narrow to only the aggregation levels we care about
+# (e.g., not the county or MSA level)
+				cur.execute(open('sql/delete_some_cew_records.sql', "r").read())
 
 		print 'Finished ' + str(i) + '...'
 
@@ -105,6 +104,12 @@ if has_table(conn_string, 'cew', 'annual_averages') == False:
 			print 'Indexing on own_code...'
 
 			cur.execute('''CREATE INDEX annual_average_own_ind ON cew.annual_averages (own_code);''')
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			print 'Indexing on agglvl_code...'
+
+			cur.execute('''CREATE INDEX annual_average_agglvl_ind ON cew.annual_averages (agglvl_code);''')
 			
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:
@@ -145,7 +150,7 @@ if has_table(conn_string, 'cew', 'industries') == False:
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:
-			in_file = os.getcwd() + '/' + 'industry_titles.csv' 
+			in_file = os.getcwd() + '/data/' + 'industry_titles.csv' 
 			cur.execute('''COPY cew.industries FROM %s DELIMITER ',' CSV HEADER;''', (in_file, ))	
 
 	with psycopg2.connect(conn_string) as conn:
@@ -166,7 +171,7 @@ if has_table(conn_string, 'cew', 'areas') == False:
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:		
-			in_file = os.getcwd() + '/' + 'area_titles.csv' 
+			in_file = os.getcwd() + '/data/' + 'area_titles.csv' 
 			cur.execute('''COPY cew.areas FROM %s DELIMITER ',' CSV HEADER;''', (in_file, ))	
 	
 	with psycopg2.connect(conn_string) as conn:
@@ -190,7 +195,7 @@ if has_table(conn_string, 'cew', 'ownerships') == False:
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:	
-			in_file = os.getcwd() + '/' + 'ownership_titles.csv' 
+			in_file = os.getcwd() + '/data/' + 'ownership_titles.csv' 
 			cur.execute('''COPY cew.ownerships FROM %s DELIMITER ',' CSV HEADER;''', (in_file, ))	
 
 	with psycopg2.connect(conn_string) as conn:
@@ -213,7 +218,7 @@ if has_table(conn_string, 'cew', 'sizes') == False:
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:	
-			in_file = os.getcwd() + '/' + 'size_titles.csv' 
+			in_file = os.getcwd() + '/data/' + 'size_titles.csv' 
 			cur.execute('''COPY cew.sizes FROM %s DELIMITER ',' CSV HEADER;''', (in_file, ))	
 
 	with psycopg2.connect(conn_string) as conn:
@@ -237,7 +242,7 @@ if has_table(conn_string, 'cew', 'agg_levels') == False:
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:	
-			in_file = os.getcwd() + '/' + 'agglevel_titles.csv' 
+			in_file = os.getcwd() + '/data/' + 'agglevel_titles.csv' 
 			cur.execute('''COPY cew.agg_levels FROM %s DELIMITER ',' CSV HEADER;''', (in_file, ))	
 
 
