@@ -41,7 +41,7 @@ Calculating Unadjusted Rates
 7.	[Create states_industries table](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql)
 	Group by state and industry
 	
-	Sum the fatalities and employment levels for [years where fatalities were reported](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L18) AND [where an employment level was reported](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L19)
+	Sum all fatalities across all years and all employment level across all years.
 	
 	Calculate a [fatality rate per 100k workers](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L14)
 

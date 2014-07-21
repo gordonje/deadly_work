@@ -8,18 +8,19 @@ SELECT
 		END as state_name
 	, areas.abbrv
 	, areas.emplvl_total
-	, si.emplvl_capd
-	, si.fatals_capd
+	, areas.fatals_total
+	-- , si.emplvl_capd
+	-- , si.fatals_capd
 	, si.expect_fatals_sum
 -- formula for residual:
 -- total number of fatalities in the state (without industry filtering) minus the sum of expected fatalities
-	, fatals_capd - expect_fatals_sum as residual
+	, fatals_total - expect_fatals_sum as residual
 FROM areas
 JOIN (
 	SELECT
 		  state_code
-		, SUM(emplvl_sum) as emplvl_capd
-		, SUM(fatals_sum) as fatals_capd
+		-- , SUM(emplvl_sum) as emplvl_capd
+		-- , SUM(fatals_sum) as fatals_capd
 		, SUM(expect_fatals) as expect_fatals_sum
 	FROM states_industries 
 	WHERE 

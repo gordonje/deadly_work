@@ -53,19 +53,19 @@ with psycopg2.connect(conn_string) as conn:
 
 
 
-print "Calculating state-industry residuals..."
+# print "Calculating state-industry residuals..."
 
-if has_column(conn_string, 'public', 'states_industries', 'residual') == False:
+# if has_column(conn_string, 'public', 'states_industries', 'residual') == False:
 	
-	print '    Add column...'
+# 	print '    Add column...'
 
-	with psycopg2.connect(conn_string) as conn:
-		with conn.cursor() as cur:
-			cur.execute('''ALTER TABLE states_industries ADD COLUMN residual numeric;''')
+# 	with psycopg2.connect(conn_string) as conn:
+# 		with conn.cursor() as cur:
+# 			cur.execute('''ALTER TABLE states_industries ADD COLUMN residual numeric;''')
 
-with psycopg2.connect(conn_string) as conn:
-	with conn.cursor() as cur:
-		cur.execute(open("sql/calc_states_industries_res.sql", "r").read())
+# with psycopg2.connect(conn_string) as conn:
+# 	with conn.cursor() as cur:
+# 		cur.execute(open("sql/calc_states_industries_res.sql", "r").read())
 
 
 
@@ -93,39 +93,39 @@ if has_column(conn_string, 'public', 'states_naics_3', 'fatals_per_100k_adj') ==
 
 with psycopg2.connect(conn_string) as conn:
 	with conn.cursor() as cur:
-		cur.execute(open("sql/calc_states_adj_fatal_rate.sql", "r").read())
+		cur.execute(open("sql/calc_states_naics3_adj_rate.sql", "r").read())
 
 
 
-print "    Calculating percentage of industry risk captured in each state..."
+# print "    Calculating percentage of industry risk captured in each state..."
 
-if has_column(conn_string, 'public', 'states_naics_3', 'pct_risk_capd') == False:
+# if has_column(conn_string, 'public', 'states_naics_3', 'pct_risk_capd') == False:
 	
-	print '        Add column...'
+# 	print '        Add column...'
 
-	with psycopg2.connect(conn_string) as conn:
-		with conn.cursor() as cur:
-			cur.execute('''ALTER TABLE states_naics_3 ADD COLUMN pct_risk_capd numeric;''')
+# 	with psycopg2.connect(conn_string) as conn:
+# 		with conn.cursor() as cur:
+# 			cur.execute('''ALTER TABLE states_naics_3 ADD COLUMN pct_risk_capd numeric;''')
 
-with psycopg2.connect(conn_string) as conn:
-	with conn.cursor() as cur:
-		cur.execute(open("sql/calc_pct_states_risk_capd.sql", "r").read())
+# with psycopg2.connect(conn_string) as conn:
+# 	with conn.cursor() as cur:
+# 		cur.execute(open("sql/calc_pct_states_risk_capd.sql", "r").read())
 
 
 
-print "    Counting the number of industries in each state with over expected fatalities..."
+# print "    Counting the number of industries in each state with over expected fatalities..."
 
-if has_column(conn_string, 'public', 'states_naics_3', 'oe_industries_count') == False:
+# if has_column(conn_string, 'public', 'states_naics_3', 'oe_industries_count') == False:
 	
-	print '        Add column...'
+# 	print '        Add column...'
 
-	with psycopg2.connect(conn_string) as conn:
-		with conn.cursor() as cur:
-			cur.execute('''ALTER TABLE states_naics_3 ADD COLUMN oe_industries_count numeric;''')
+# 	with psycopg2.connect(conn_string) as conn:
+# 		with conn.cursor() as cur:
+# 			cur.execute('''ALTER TABLE states_naics_3 ADD COLUMN oe_industries_count numeric;''')
 
-with psycopg2.connect(conn_string) as conn:
-	with conn.cursor() as cur:
-		cur.execute(open("sql/count_states_oe_industries.sql", "r").read())
+# with psycopg2.connect(conn_string) as conn:
+# 	with conn.cursor() as cur:
+# 		cur.execute(open("sql/count_states_oe_industries.sql", "r").read())
 
 
 

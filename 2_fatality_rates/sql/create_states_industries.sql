@@ -6,6 +6,7 @@ AS
 		, industry_code
 		, COUNT(*) as years_count
 		, SUM(estabs) as estabs_sum
+		-- get this without suppression
 		, SUM(emplvl) as emplvl_sum
 		, SUM(fatals) as fatals_sum
 		, CASE 
@@ -14,9 +15,8 @@ AS
 				ELSE (SUM(fatals) / SUM(emplvl)) * 100000
 			END as fatals_per_100k
 	FROM states_industries_years
--- we can only sum for years when we actually know there were fatalities
-	WHERE fatals IS NOT NULL
-	  AND emplvl > 0
+	-- WHERE fatals IS NOT NULL
+	--   AND emplvl > 0
 	GROUP BY 		
 		  state_code
 		, industry_code
