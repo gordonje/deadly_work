@@ -39,18 +39,24 @@ Calculating Unadjusted Rates
 6. Calculate [industry national fatality](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/calc_industry_national_rates.sql) rate per 100k workers
 
 7.	[Create states_industries table](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql)
-	**	Group by state and industry
-	**	Sum the fatalities and employment levels for [years where fatalities were reported](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L18) AND [where an employment level was reported](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L19)
-	** Calculate a [fatality rate per 100k workers](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L14)
+	Group by state and industry
+	
+	Sum the fatalities and employment levels for [years where fatalities were reported](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L18) AND [where an employment level was reported](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L19)
+	
+	Calculate a [fatality rate per 100k workers](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/create_states_industries.sql#L14)
 
 8. 	Within each industry, [rank the states from highest to lowest fatality rate](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/rank_states_in_industries.sql)
-	** Only do this for state_industries with [at least 5 years worth of data](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/rank_states_in_industries.sql#L10)
+	
+	Only do this for state_industries with [at least 5 years worth of data](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/rank_states_in_industries.sql#L10)
 
 9. [For each state, count the number of industries in which it is ranked the worst](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/count_areas_top1s.sql)
-	** Only count the times [when it's competiting with at least 1 other state](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/count_areas_top1s.sql#L12-L20)
+	
+	Only count the times [when it's competiting with at least 1 other state](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/count_areas_top1s.sql#L12-L20)
 
 10. [For each state, count the number of industries in which it is ranked one of the five worst](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/count_areas_top5s.sql)
-	** Only count the times [when it's competiting with at least five other states](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/count_areas_top5s.sql#L12-L19)
+	
+	Only count the times [when it's competiting with at least five other states](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/count_areas_top5s.sql#L12-L19)
+
 
 Run [calc_fatal_rates_unadj.py](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/calc_fatal_rates_unadj.py) to complete these steps.
 	
