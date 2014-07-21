@@ -5,7 +5,8 @@ FROM (
 		  state_code
 		, COUNT(*) as the_count
 	FROM states_industries
-	WHERE expect_fatals > 0
+	WHERE residual > 0
+	  AND CHAR_LENGTH(industry_code) = 3
 	GROUP BY 
 		  state_code	
 ) stind
