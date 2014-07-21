@@ -6,11 +6,11 @@ SELECT
 			WHEN areas.cew_code = '11000' THEN areas.cew_name
 			ELSE TRIM(LEFT(areas.cew_name, POSITION(' -' in areas.cew_name)))
 		END as state_name
-	, abbrv
-	, emplvl_total
-	, emplvl_capd
-	, fatals_capd
-	, expect_fatals_sum
+	, areas.abbrv
+	, areas.emplvl_total
+	, si.emplvl_capd
+	, si.fatals_capd
+	, si.expect_fatals_sum
 -- formula for residual:
 -- total number of fatalities in the state (without industry filtering) minus the sum of expected fatalities
 	, fatals_capd - expect_fatals_sum as residual
