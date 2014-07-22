@@ -50,10 +50,9 @@ We also add state abbrevations from a [translator table](https://github.com/gord
 
 Then, we [joined industries](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_industries.sql) into a single table that contains only the industries included in both CFOI and CEW. Note that industry names in fi and fw use different character casing (e.g., 'Specialty trade contractors' versus 'Specialty Trade Contractors'), so we use the INITCAP() function to make PostgreSQL ignore this these distinctions.
 
-The industry codes are nested, with very specific industries (e.g., "Natural gas liquid extraction" coded "211112") fitting under more general ones (e.g., "Oil and gas extraction" coded "211XXX"). The CFOI and QCEW industries starte to intersect at the 3-digit NAICS level.
+The industry codes are nested, with very specific industries (e.g., "Natural gas liquid extraction" coded "211112") fitting under more general ones (e.g., "Oil and gas extraction" coded "211XXX"), and the number workplace fatalities counted at the lower detail levels are included at the higher details (however, because of [non-disclosure rules](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/README.md#bls-data-non-disclosure) the totals at the higher level are greater than the sums at the lower levels).
 
-(More here about industries that are excluded).
-
+The CFOI and QCEW industries intersect fairly neatly at the 3-digit NAICS level, but for the higher industry detail levels, we had to do our own [translator]().
 
 We then used the aligned areas and industries to [join employee and fatalities counts](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_cfoi_to_cew.sql) into a single table. A couple of things to note about this query:
 

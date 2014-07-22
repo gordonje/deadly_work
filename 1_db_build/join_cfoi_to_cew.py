@@ -91,13 +91,21 @@ if has_table(conn_string, 'public', 'industries') == False:
 		with conn.cursor() as cur:
 			cur.execute(open("sql/join_industries.sql", "r").read())
 
+	print "    Adding translated industries..."
+
+	in_file = os.getcwd() + '/high_level_industries_translator.csv'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute("COPY public.industries FROM %s CSV HEADER;", (in_file, ))
+
 
 
 # combining lowest-level data
 
 if has_table(conn_string, 'public', 'states_industries_years') == False:
 
-	print 'Joining annual fatality count and annual employee levels...'
+	print 'Joining annual fatality counts and annual employee levels...'
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:

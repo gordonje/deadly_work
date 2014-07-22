@@ -164,7 +164,7 @@ with psycopg2.connect(conn_string) as conn:
 		cur.execute(open("sql/rank_states_in_industries.sql", "r").read())
 
 # count the number of times each state is ranked the worst
-print 'Counting the number of industries in which each state has worst rank...'
+print 'Counting the number of industries in which each state has worst fatality rate...'
 
 if has_column(conn_string, 'public', 'areas', 'top_1_count') == False:
 	
@@ -179,7 +179,7 @@ with psycopg2.connect(conn_string) as conn:
 		cur.execute(open("sql/count_areas_top1s.sql", "r").read())
 
 # count the number of times each state is ranked one of the five worst
-print 'Counting the number of industries in which each state has worst rank...'
+print 'Counting the number of industries in which each state has one of the five worst fatality rates...'
 
 if has_column(conn_string, 'public', 'areas', 'top_5_count') == False:
 	

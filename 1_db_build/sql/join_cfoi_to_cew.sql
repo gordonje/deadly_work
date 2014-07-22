@@ -35,7 +35,7 @@ AS
 			WHERE own_code >= 1
 			AND own_code <= 5
 -- also, narrow to the state and industry aggregation level
-			AND agglvl_code >= 55
+			AND agglvl_code >= 52
 			AND agglvl_code <= 58
 			GROUP BY 
 				  area_fips
