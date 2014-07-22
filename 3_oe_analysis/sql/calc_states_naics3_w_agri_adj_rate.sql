@@ -1,4 +1,4 @@
-UPDATE states_naics_3
+UPDATE states_naics3_w_agri
 SET 
 -- formula for adjusted rate: 
 -- state's residual divided by sum of employment level (without industry filtering)

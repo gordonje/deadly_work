@@ -1,4 +1,4 @@
-CREATE TABLE states_naics_3
+CREATE TABLE states_naics3_w_agri
 AS 
 SELECT
 	  LEFT(areas.cew_code, 2) as state_code
@@ -18,14 +18,18 @@ SELECT
 FROM areas
 JOIN (
 	SELECT
-		  state_code
+		  states_industries.state_code
 		-- , SUM(emplvl_sum) as emplvl_capd
 		-- , SUM(fatals_sum) as fatals_capd
-		, SUM(expect_fatals) as expect_fatals_sum
-	FROM states_industries 
+		, SUM(states_industries.expect_fatals) as expect_fatals_sum
+	FROM states_industries
+	JOIN industries 
+	ON
+		  states_industries.industry_code = industries.cew_code
 	WHERE 
-		  CHAR_LENGTH(industry_code) = 3
+	-- narrow to 3-digit NAICS industries
+		  industries.display_level = 4
 	GROUP BY 
-		  state_code
+		  states_industries.state_code
 ) as si
 ON si.state_code = LEFT(areas.cew_code, 2)

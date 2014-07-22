@@ -53,47 +53,173 @@ with psycopg2.connect(conn_string) as conn:
 
 
 
-# print "Calculating state-industry residuals..."
+print "Calculating state-industry residuals..."
 
-# if has_column(conn_string, 'public', 'states_industries', 'residual') == False:
+if has_column(conn_string, 'public', 'states_industries', 'residual') == False:
 	
-# 	print '    Add column...'
+	print '    Add column...'
 
-# 	with psycopg2.connect(conn_string) as conn:
-# 		with conn.cursor() as cur:
-# 			cur.execute('''ALTER TABLE states_industries ADD COLUMN residual numeric;''')
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute('''ALTER TABLE states_industries ADD COLUMN residual numeric;''')
 
-# with psycopg2.connect(conn_string) as conn:
-# 	with conn.cursor() as cur:
-# 		cur.execute(open("sql/calc_states_industries_res.sql", "r").read())
+with psycopg2.connect(conn_string) as conn:
+	with conn.cursor() as cur:
+		cur.execute(open("sql/calc_states_industries_res.sql", "r").read())
 
 
+# getting results for NAICS sectors
 
-print "Getting state 3-digit NAICS results..."
+## agri
 
-if has_table(conn_string, 'public', 'states_naics_3') == False:
+print "Getting state results for NAICS sectors (including agriculture)..."
+
+if has_table(conn_string, 'public', 'states_naics2_w_agri') == False:
 	
 	print '    Adding table...'
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:
-			cur.execute(open("sql/create_states_naics_3.sql", "r").read())
+			cur.execute(open("sql/create_states_naics2_w_agri.sql", "r").read())
 
 
 
 print "    Calculating risk-adjusted fatality rate for each state..."
 
-if has_column(conn_string, 'public', 'states_naics_3', 'fatals_per_100k_adj') == False:
+if has_column(conn_string, 'public', 'states_naics2_w_agri', 'fatals_per_100k_adj') == False:
 	
 	print '        Add column...'
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:
-			cur.execute('''ALTER TABLE states_naics_3 ADD COLUMN fatals_per_100k_adj numeric;''')
+			cur.execute('''ALTER TABLE states_naics2_w_agri ADD COLUMN fatals_per_100k_adj numeric;''')
 
 with psycopg2.connect(conn_string) as conn:
 	with conn.cursor() as cur:
-		cur.execute(open("sql/calc_states_naics3_adj_rate.sql", "r").read())
+		cur.execute(open("sql/calc_states_naics2_w_agri_adj_rate.sql", "r").read())
+
+## non-agri
+
+print "Getting state results for NAICS sectors (minus agriculture)..."
+
+if has_table(conn_string, 'public', 'states_naics2_no_agri') == False:
+	
+	print '    Adding table...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute(open("sql/create_states_naics2_no_agri.sql", "r").read())
+
+
+
+print "    Calculating state residuals for all non-agricultural industries..."
+
+if has_column(conn_string, 'public', 'states_naics2_no_agri', 'residual') == False:
+	
+	print '        Add column...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute('''ALTER TABLE states_naics2_no_agri ADD COLUMN residual numeric;''')
+
+with psycopg2.connect(conn_string) as conn:
+	with conn.cursor() as cur:
+		cur.execute(open("sql/calc_states_naics2_no_agri_res.sql", "r").read())
+
+
+
+print "    Calculating risk-adjusted fatality rate for each state..."
+
+if has_column(conn_string, 'public', 'states_naics2_no_agri', 'fatals_per_100k_adj') == False:
+	
+	print '        Add column...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute('''ALTER TABLE states_naics2_no_agri ADD COLUMN fatals_per_100k_adj numeric;''')
+
+with psycopg2.connect(conn_string) as conn:
+	with conn.cursor() as cur:
+		cur.execute(open("sql/calc_states_naics2_no_agri_adj_rate.sql", "r").read())
+
+
+
+
+# getting results for 3 digit NAICS industries
+
+## agri
+
+print "Getting state results for 3-digit NAICS industries (including agriculture)..."
+
+if has_table(conn_string, 'public', 'states_naics3_w_agri') == False:
+	
+	print '    Adding table...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute(open("sql/create_states_naics3_w_agri.sql", "r").read())
+
+
+
+print "    Calculating risk-adjusted fatality rate for each state..."
+
+if has_column(conn_string, 'public', 'states_naics3_w_agri', 'fatals_per_100k_adj') == False:
+	
+	print '        Add column...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute('''ALTER TABLE states_naics3_w_agri ADD COLUMN fatals_per_100k_adj numeric;''')
+
+with psycopg2.connect(conn_string) as conn:
+	with conn.cursor() as cur:
+		cur.execute(open("sql/calc_states_naics3_w_agri_adj_rate.sql", "r").read())
+
+
+## non-agri
+
+print "Getting state results for 3-digit NAICS industries (minus agriculture)..."
+
+if has_table(conn_string, 'public', 'states_naics3_no_agri') == False:
+	
+	print '    Adding table...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute(open("sql/create_states_naics3_no_agri.sql", "r").read())
+
+
+
+print "    Calculating state residuals for all non-agricultural industries..."
+
+if has_column(conn_string, 'public', 'states_naics3_no_agri', 'residual') == False:
+	
+	print '        Add column...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute('''ALTER TABLE states_naics3_no_agri ADD COLUMN residual numeric;''')
+
+with psycopg2.connect(conn_string) as conn:
+	with conn.cursor() as cur:
+		cur.execute(open("sql/calc_states_naics3_no_agri_res.sql", "r").read())
+
+
+
+print "    Calculating risk-adjusted fatality rate for each state..."
+
+if has_column(conn_string, 'public', 'states_naics3_no_agri', 'fatals_per_100k_adj') == False:
+	
+	print '        Add column...'
+
+	with psycopg2.connect(conn_string) as conn:
+		with conn.cursor() as cur:
+			cur.execute('''ALTER TABLE states_naics3_no_agri ADD COLUMN fatals_per_100k_adj numeric;''')
+
+with psycopg2.connect(conn_string) as conn:
+	with conn.cursor() as cur:
+		cur.execute(open("sql/calc_states_naics3_no_agri_adj_rate.sql", "r").read())
+
 
 
 
