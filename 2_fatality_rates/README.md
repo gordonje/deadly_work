@@ -6,17 +6,17 @@ BLS Data Non-Disclosure
 
 Before we go further, we need to delve into the biggest gotcha in using this BLS data.
 
-In a nutshell, BLS will not disclose either the number of fatalities in cases where that information is considered "personally identifiable". The policy is meant to prevent someone from figuring out exactly who died, which would be easier, for example if there are fewer deaths among fewer employees. BLS also will not disclose employment levels under similar circumstances, though the actual suppression rules for both datasets are intentionally opaque.
+In a nutshell, BLS will not disclose the number of fatalities in cases where that information is considered "personally identifiable". The policy is meant to prevent someone from figuring out exactly who died, which would be easier, for example, when there are fewer deaths among fewer employees and establishments. BLS also will not disclose employment levels under similar circumstances, though the actual suppression rules for both datasets are intentionally opaque.
 
-What makes this tricky for us is that BLS will either report a number or it won't without indicating when the non-disclosure rules were applied. For example, BLS may not report any electrical contractor deaths in Rhode Island in 2012, but we can't be certain whether there were a small number of deaths that weren't disclosed or if there in fact were no electical contractor deaths in Rhode Island in 2012.
+What makes this tricky for us is that BLS will either report a number or it won't without indicating when the non-disclosure rules were applied. For example, BLS may not report any electrical contractor deaths in Rhode Island in 2012, but we can't be certain whether there were a small number of deaths that weren't disclosed or if in fact there were no electical contractor deaths in Rhode Island in 2012.
 
-However, the suppressed numbers are included at higher aggregation levels. So while we might not be certain of how many electrical contractor deaths happened in Rhode Island in 2012, we can at least trust that the eight deaths reported across the entire "Ocean State" in 2012 is an accurate number.
+However, the suppressed numbers are included at higher aggregation levels. So while we might not be certain of how many electrical contractor deaths happened in Rhode Island in 2012, we can at least trust that the eight deaths reported across all industries for 2012 Rhode Island is an accurate number.
 
 That means we can at least get some feel for how aggressively the non-disclosure rules are applied. We can [query](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/states_suppression.sql) to compare [how many deaths are reported in each state at each industry detail level](https://github.com/gordonje/deadly_work/blob/master/results/states_suppression.csv). For each industry, we can also [query](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/sql/industries_suppression.sql) to [compare each industry's national fatality number to the sum of fatalities across the states](https://github.com/gordonje/deadly_work/blob/master/results/industries_suppression.csv). 
 
 For our purposes, the most important take-aways are:
 
-1.	Where we can, we use the total fatalities and employment levels published by BLS at the higher aggregation level, rather than doing our own sums of fatalities and employment levels.
+1.	Where we can, we should use the total fatalities and employment levels published by BLS at the higher aggregation level, rather than doing our own sums of fatalities and employment levels.
 
 2.	We need to be aware of how the results could be skewed in favor of larger states, which will tend to have more industries large enough to escape BLS' non-disclosure rules.
 
