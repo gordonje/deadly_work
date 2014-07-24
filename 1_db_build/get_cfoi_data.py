@@ -103,6 +103,8 @@ handle_file(conn_string, 'fw', 'category2')
 
 handle_file(conn_string, 'fw', 'Current')
 
+handle_file(conn_string, 'fw', 'event')
+
 handle_file(conn_string, 'fw', 'industry')
 
 handle_file(conn_string, 'fw', 'occupation')
@@ -128,6 +130,8 @@ handle_file(conn_string, 'fi', 'category')
 handle_file(conn_string, 'fi', 'category2')
 
 handle_file(conn_string, 'fi', 'Current')
+
+handle_file(conn_string, 'fi', 'event')
 
 handle_file(conn_string, 'fi', 'industry')
 
