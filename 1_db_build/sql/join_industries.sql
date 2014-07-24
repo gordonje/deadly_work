@@ -7,14 +7,13 @@ AS
 		  , cfoi_industries.industry_code as cfoi_code
 		  , cfoi_industries.cfoi_name
 		  , cfoi_industries.display_level
-		  , cfoi_industries.sort_sequence
 	FROM cew.industries as cew_industries
 	JOIN (
 -- use initcap() on industry_text to make PostgreSQL ignore the character case distinctions
-		SELECT industry_code, initcap(industry_text) as cfoi_name, display_level, sort_sequence
+		SELECT industry_code, initcap(industry_text) as cfoi_name, display_level
 		FROM fw.industry
 		UNION
-		SELECT industry_code, initcap(industry_text) as cfoi_name, display_level, sort_sequence
+		SELECT industry_code, initcap(industry_text) as cfoi_name, display_level
 		FROM fi.industry
 	) AS cfoi_industries
 	ON cew_industries.code = trim(TRAILING 'X' FROM cfoi_industries.industry_code)
