@@ -1,4 +1,4 @@
-CREATE TABLE
+CREATE TABLE industries_suppression
 AS
 	SELECT
 		  cfoi_inds.industry_code
