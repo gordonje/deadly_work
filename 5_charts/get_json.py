@@ -16,7 +16,7 @@ password = getpass.getpass("Enter your PostgreSQL user password:")
 
 conn_string = "dbname=%(db)s user=%(user)s password=%(password)s" % {"db": db, "user": user, "password":password}
 
-# get all the states
+# get all the states and format for json
 
 states = []
 
@@ -53,7 +53,7 @@ output = []
 
 for state in states:
 
-	# get the sectos in that state...
+	# get non-agri sectors with residuals in that state...
 
 	sector_query = '''SELECT 
 							  a.cew_code
@@ -80,16 +80,17 @@ for state in states:
 		# need to handle cases when sector code is a range, like '48-49'
 		if '-' in sector['naics_code']:
 			# split the sector code at the dash
-			# get the min value and the max value, loop over all the numbers in between
-
+			# get the min value and the max value
 			min_code = int(sector['naics_code'].split('-')[0])
 			max_code = int(sector['naics_code'].split('-')[1])
 
 			sector_filter = ''
 
+			# loop over all numbers in the range, adding an 'OR' condition for each
 			for x in range(min_code, max_code + 1):
 
 				sector_filter += "b.industry_code LIKE '" + str(x) + "%' OR "
+		# if no dash, just add one sector filter
 		else:
 			sector_filter = "b.industry_code LIKE '" + sector['naics_code'] + "%'"
 
@@ -102,13 +103,13 @@ for state in states:
 							ON a.cew_code = b.industry_code
 							WHERE a.display_level = 5 
 							AND b.state_code = '%(state)s' 
-							-- to handle cases when 
 							AND (%(sectors)s)
 							AND b.residual IS NOT NULL
 							AND b.expect_fatals > 0
 							ORDER BY b.residual / b.expect_fatals DESC
 							LIMIT 5;''' % {'state': state['state_code'], 'sectors': sector_filter.rstrip(' OR ')}
 
+		# append each industry to its sector
 		for j in query_db(conn_string, industry_query):
 
 			sector['industries'].append({
@@ -117,11 +118,12 @@ for state in states:
 					, 'pct_oe': str(j[2])
 				})
 
+		# append all the sectors with industries to the state
 		state['sectors'].append(sector)
-
+	# append the state to the output variable
 	output.append(state)
 		
-
+# write to file
 json_file = open('states_industries.json', 'w')
 json_file.write(json.dumps(output, sort_keys=True, indent=4, separators=(',', ': ')))
 json_file.close()
