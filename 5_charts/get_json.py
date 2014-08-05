@@ -123,7 +123,7 @@ for state in states:
 	# append the state to the output variable
 	output.append(state)
 		
-# write to file
+# convert to json and write to file
 json_file = open('states_industries.json', 'w')
 json_file.write(json.dumps(output, sort_keys=True, indent=4, separators=(',', ': ')))
 json_file.close()
