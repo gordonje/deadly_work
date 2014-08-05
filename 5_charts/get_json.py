@@ -2,11 +2,11 @@ import getpass
 import psycopg2
 import json
 
-def query_db(conn_string, sql_string, parameter_tuple = ()):
+def query_db(conn_string, sql_string):
 
 	with psycopg2.connect(conn_string) as conn:
 		with conn.cursor() as cur:
-			cur.execute(sql_string, parameter_tuple)
+			cur.execute(sql_string)
 			return cur.fetchall()
 
 
@@ -15,6 +15,8 @@ user = raw_input("Enter your PostgreSQL username (this might just be 'postgres')
 password = getpass.getpass("Enter your PostgreSQL user password:")
 
 conn_string = "dbname=%(db)s user=%(user)s password=%(password)s" % {"db": db, "user": user, "password":password}
+
+# get all the states
 
 states = []
 
@@ -47,7 +49,11 @@ for i in query_db(conn_string, states_query):
 
 output = []
 
+# loop over each state...
+
 for state in states:
+
+	# get the sectos in that state...
 
 	sector_query = '''SELECT 
 							  a.cew_code
@@ -58,11 +64,11 @@ for state in states:
 						ON a.cew_code = b.industry_code
 						WHERE a.display_level = 3 
 						AND a.cew_code NOT LIKE '1%%'
-						AND b.state_code = %s 
+						AND b.state_code = '%s' 
 						AND b.residual IS NOT NULL
-						ORDER BY b.residual DESC;'''
+						ORDER BY b.residual DESC;''' % state['state_code']
 
-	for i in query_db(conn_string, sector_query, (state['state_code'],)):
+	for i in query_db(conn_string, sector_query):
 
 		sector = {				
 					'naics_code': i[0],
@@ -71,10 +77,21 @@ for state in states:
 					'industries': []
 				}
 
+		# need to handle cases when sector code is a range, like '48-49'
 		if '-' in sector['naics_code']:
-			query_params = (state['state_code'], sector['naics_code'].split('-')[0] + '%', sector['naics_code'].split('-')[1] + '%')
+			# split the sector code at the dash
+			# get the min value and the max value, loop over all the numbers in between
+
+			min_code = int(sector['naics_code'].split('-')[0])
+			max_code = int(sector['naics_code'].split('-')[1])
+
+			sector_filter = ''
+
+			for x in range(min_code, max_code + 1):
+
+				sector_filter += "b.industry_code LIKE '" + str(x) + "%' OR "
 		else:
-			query_params = (state['state_code'], sector['naics_code'] + '%', sector['naics_code'] + '%')
+			sector_filter = "b.industry_code LIKE '" + sector['naics_code'] + "%'"
 
 		industry_query = '''SELECT 
 								  a.cew_code
@@ -84,14 +101,15 @@ for state in states:
 							JOIN states_industries b
 							ON a.cew_code = b.industry_code
 							WHERE a.display_level = 5 
-							AND b.state_code = %s 
-							AND (b.industry_code LIKE %s OR b.industry_code LIKE %s)
+							AND b.state_code = '%(state)s' 
+							-- to handle cases when 
+							AND (%(sectors)s)
 							AND b.residual IS NOT NULL
 							AND b.expect_fatals > 0
 							ORDER BY b.residual / b.expect_fatals DESC
-							LIMIT 5;'''
+							LIMIT 5;''' % {'state': state['state_code'], 'sectors': sector_filter.rstrip(' OR ')}
 
-		for j in query_db(conn_string, industry_query, query_params):
+		for j in query_db(conn_string, industry_query):
 
 			sector['industries'].append({
 					  'naics_code': j[0]

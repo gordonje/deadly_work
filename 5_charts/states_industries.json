@@ -157,6 +157,11 @@
                         "pct_oe": "72.3"
                     },
                     {
+                        "industry": "Printing And Related Support Activities",
+                        "naics_code": "3231",
+                        "pct_oe": "42.5"
+                    },
+                    {
                         "industry": "Iron And Steel Mills And Ferroalloy Manufacturing",
                         "naics_code": "3311",
                         "pct_oe": "-79.2"
@@ -746,6 +751,11 @@
                         "pct_oe": "63.8"
                     },
                     {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-57.4"
+                    },
+                    {
                         "industry": "Animal Slaughtering And Processing",
                         "naics_code": "3116",
                         "pct_oe": "-71.4"
@@ -1320,19 +1330,19 @@
                         "pct_oe": "-6.3"
                     },
                     {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "-15.1"
+                    },
+                    {
                         "industry": "Fruit And Vegetable Preserving And Specialty Food Manufacturing",
                         "naics_code": "3114",
                         "pct_oe": "-22.7"
                     },
                     {
-                        "industry": "Household And Institutional Furniture And Kitchen Cabinet Manufacturing",
-                        "naics_code": "3371",
-                        "pct_oe": "-45.1"
-                    },
-                    {
-                        "industry": "Beverage Manufacturing",
-                        "naics_code": "3121",
-                        "pct_oe": "-60.0"
+                        "industry": "Plastics Product Manufacturing",
+                        "naics_code": "3261",
+                        "pct_oe": "-34.2"
                     }
                 ],
                 "naics_code": "31-33",
@@ -1565,7 +1575,13 @@
                 "sector": "Educational Services"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Petroleum And Coal Products Manufacturing",
+                        "naics_code": "3241",
+                        "pct_oe": "58.1"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": 6,
                 "sector": "Manufacturing"
@@ -2179,24 +2195,29 @@
             {
                 "industries": [
                     {
+                        "industry": "Other Chemical Product And Preparation Manufacturing",
+                        "naics_code": "3259",
+                        "pct_oe": "434.8"
+                    },
+                    {
                         "industry": "Electrical Equipment Manufacturing",
                         "naics_code": "3353",
                         "pct_oe": "118.5"
                     },
                     {
+                        "industry": "Other Nonmetallic Mineral Product Manufacturing",
+                        "naics_code": "3279",
+                        "pct_oe": "118.1"
+                    },
+                    {
+                        "industry": "Veneer, Plywood, And Engineered Wood Product Manufacturing",
+                        "naics_code": "3212",
+                        "pct_oe": "14.3"
+                    },
+                    {
                         "industry": "Beverage Manufacturing",
                         "naics_code": "3121",
                         "pct_oe": "6.7"
-                    },
-                    {
-                        "industry": "Other Miscellaneous Manufacturing",
-                        "naics_code": "3399",
-                        "pct_oe": "-20.6"
-                    },
-                    {
-                        "industry": "Ship And Boat Building",
-                        "naics_code": "3366",
-                        "pct_oe": "-35.9"
                     }
                 ],
                 "naics_code": "31-33",
@@ -2618,6 +2639,21 @@
                         "industry": "Sugar And Confectionery Product Manufacturing",
                         "naics_code": "3113",
                         "pct_oe": "2147.8"
+                    },
+                    {
+                        "industry": "Plastics Product Manufacturing",
+                        "naics_code": "3261",
+                        "pct_oe": "-27.6"
+                    },
+                    {
+                        "industry": "Basic Chemical Manufacturing",
+                        "naics_code": "3251",
+                        "pct_oe": "-47.9"
+                    },
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "-60.4"
                     },
                     {
                         "industry": "Other Food Manufacturing",
@@ -3410,6 +3446,11 @@
             {
                 "industries": [
                     {
+                        "industry": "Resin, Synthetic Rubber, And Artificial Synthetic Fibers And Filaments Manufacturing",
+                        "naics_code": "3252",
+                        "pct_oe": "446.8"
+                    },
+                    {
                         "industry": "Iron And Steel Mills And Ferroalloy Manufacturing",
                         "naics_code": "3311",
                         "pct_oe": "13.7"
@@ -3428,11 +3469,6 @@
                         "industry": "Grain And Oilseed Milling",
                         "naics_code": "3112",
                         "pct_oe": "-31.4"
-                    },
-                    {
-                        "industry": "Fruit And Vegetable Preserving And Specialty Food Manufacturing",
-                        "naics_code": "3114",
-                        "pct_oe": "-41.8"
                     }
                 ],
                 "naics_code": "31-33",
@@ -4057,6 +4093,11 @@
             {
                 "industries": [
                     {
+                        "industry": "Converted Paper Product Manufacturing",
+                        "naics_code": "3222",
+                        "pct_oe": "107.2"
+                    },
+                    {
                         "industry": "Alumina And Aluminum Production And Processing",
                         "naics_code": "3313",
                         "pct_oe": "76.6"
@@ -4075,11 +4116,6 @@
                         "industry": "Other General Purpose Machinery Manufacturing",
                         "naics_code": "3339",
                         "pct_oe": "-25.1"
-                    },
-                    {
-                        "industry": "Agriculture, Construction, And Mining Machinery Manufacturing",
-                        "naics_code": "3331",
-                        "pct_oe": "-64.8"
                     }
                 ],
                 "naics_code": "31-33",
@@ -4427,6 +4463,11 @@
                         "pct_oe": "58.0"
                     },
                     {
+                        "industry": "Plastics Product Manufacturing",
+                        "naics_code": "3261",
+                        "pct_oe": "29.4"
+                    },
+                    {
                         "industry": "Animal Slaughtering And Processing",
                         "naics_code": "3116",
                         "pct_oe": "1.5"
@@ -4435,11 +4476,6 @@
                         "industry": "Other General Purpose Machinery Manufacturing",
                         "naics_code": "3339",
                         "pct_oe": "-3.4"
-                    },
-                    {
-                        "industry": "Aerospace Product And Parts Manufacturing",
-                        "naics_code": "3364",
-                        "pct_oe": "-62.9"
                     }
                 ],
                 "naics_code": "31-33",
@@ -4671,7 +4707,28 @@
                 "sector": "Mining"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Other Nonmetallic Mineral Product Manufacturing",
+                        "naics_code": "3279",
+                        "pct_oe": "833.7"
+                    },
+                    {
+                        "industry": "Plastics Product Manufacturing",
+                        "naics_code": "3261",
+                        "pct_oe": "158.3"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-43.1"
+                    },
+                    {
+                        "industry": "Other Wood Product Manufacturing",
+                        "naics_code": "3219",
+                        "pct_oe": "-61.6"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": 25,
                 "sector": "Manufacturing"
@@ -5241,7 +5298,13 @@
                 "sector": "Administrative and waste services"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "67.2"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": -7,
                 "sector": "Manufacturing"
@@ -5408,6 +5471,16 @@
                         "industry": "Navigational, Measuring, Electromedical, And Control Instruments Manufacturing",
                         "naics_code": "3345",
                         "pct_oe": "14.9"
+                    },
+                    {
+                        "industry": "Printing And Related Support Activities",
+                        "naics_code": "3231",
+                        "pct_oe": "-37.3"
+                    },
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "-71.2"
                     }
                 ],
                 "naics_code": "31-33",
@@ -5845,7 +5918,13 @@
                 "sector": "Other Services, Except Public Administration"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Converted Paper Product Manufacturing",
+                        "naics_code": "3222",
+                        "pct_oe": "10.4"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": -48,
                 "sector": "Manufacturing"
@@ -6194,6 +6273,11 @@
             {
                 "industries": [
                     {
+                        "industry": "Pesticide, Fertilizer, And Other Agricultural Chemical Manufacturing",
+                        "naics_code": "3253",
+                        "pct_oe": "432.5"
+                    },
+                    {
                         "industry": "Medical Equipment And Supplies Manufacturing",
                         "naics_code": "3391",
                         "pct_oe": "331.1"
@@ -6212,11 +6296,6 @@
                         "industry": "Office Furniture (Including Fixtures) Manufacturing",
                         "naics_code": "3372",
                         "pct_oe": "1.7"
-                    },
-                    {
-                        "industry": "Forging And Stamping",
-                        "naics_code": "3321",
-                        "pct_oe": "-31.7"
                     }
                 ],
                 "naics_code": "31-33",
@@ -6536,6 +6615,11 @@
                         "industry": "Ship And Boat Building",
                         "naics_code": "3366",
                         "pct_oe": "-10.6"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-56.0"
                     }
                 ],
                 "naics_code": "31-33",
@@ -6796,6 +6880,21 @@
                         "industry": "Electrical Equipment Manufacturing",
                         "naics_code": "3353",
                         "pct_oe": "522.6"
+                    },
+                    {
+                        "industry": "Other Wood Product Manufacturing",
+                        "naics_code": "3219",
+                        "pct_oe": "-1.1"
+                    },
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "-45.4"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-77.7"
                     }
                 ],
                 "naics_code": "31-33",
@@ -7052,7 +7151,13 @@
                 "sector": "Information"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "168.8"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": 2,
                 "sector": "Manufacturing"
@@ -7849,9 +7954,14 @@
                         "pct_oe": "-0.2"
                     },
                     {
-                        "industry": "Other Miscellaneous Manufacturing",
-                        "naics_code": "3399",
-                        "pct_oe": "-55.4"
+                        "industry": "Other Chemical Product And Preparation Manufacturing",
+                        "naics_code": "3259",
+                        "pct_oe": "-42.8"
+                    },
+                    {
+                        "industry": "Glass And Glass Product Manufacturing",
+                        "naics_code": "3272",
+                        "pct_oe": "-49.2"
                     }
                 ],
                 "naics_code": "31-33",
@@ -8874,6 +8984,11 @@
             {
                 "industries": [
                     {
+                        "industry": "Rubber Product Manufacturing",
+                        "naics_code": "3262",
+                        "pct_oe": "113.5"
+                    },
+                    {
                         "industry": "Fabric Mills",
                         "naics_code": "3132",
                         "pct_oe": "14.4"
@@ -8882,6 +8997,16 @@
                         "industry": "Animal Slaughtering And Processing",
                         "naics_code": "3116",
                         "pct_oe": "-12.5"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-17.8"
+                    },
+                    {
+                        "industry": "Plastics Product Manufacturing",
+                        "naics_code": "3261",
+                        "pct_oe": "-40.2"
                     }
                 ],
                 "naics_code": "31-33",
@@ -9481,9 +9606,9 @@
                         "pct_oe": "0.3"
                     },
                     {
-                        "industry": "Bakeries And Tortilla Manufacturing",
-                        "naics_code": "3118",
-                        "pct_oe": "-20.4"
+                        "industry": "Glass And Glass Product Manufacturing",
+                        "naics_code": "3272",
+                        "pct_oe": "-1.4"
                     }
                 ],
                 "naics_code": "31-33",
@@ -9626,7 +9751,13 @@
                 "sector": "Construction"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "0.8"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": 32,
                 "sector": "Manufacturing"
@@ -9889,6 +10020,11 @@
                         "industry": "Fruit And Vegetable Preserving And Specialty Food Manufacturing",
                         "naics_code": "3114",
                         "pct_oe": "17.3"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-56.7"
                     }
                 ],
                 "naics_code": "31-33",
@@ -10326,9 +10462,9 @@
                         "pct_oe": "-25.3"
                     },
                     {
-                        "industry": "Household And Institutional Furniture And Kitchen Cabinet Manufacturing",
-                        "naics_code": "3371",
-                        "pct_oe": "-57.9"
+                        "industry": "Pulp, Paper, And Paperboard Mills",
+                        "naics_code": "3221",
+                        "pct_oe": "-50.2"
                     }
                 ],
                 "naics_code": "31-33",
@@ -10820,7 +10956,13 @@
                 "sector": "Retail trade"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Plastics Product Manufacturing",
+                        "naics_code": "3261",
+                        "pct_oe": "225.8"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": -13,
                 "sector": "Manufacturing"
@@ -10999,6 +11141,16 @@
                         "industry": "Textile And Fabric Finishing And Fabric Coating Mills",
                         "naics_code": "3133",
                         "pct_oe": "825.0"
+                    },
+                    {
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "-36.4"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-47.5"
                     }
                 ],
                 "naics_code": "31-33",
@@ -11586,14 +11738,14 @@
                         "pct_oe": "149.3"
                     },
                     {
+                        "industry": "Petroleum And Coal Products Manufacturing",
+                        "naics_code": "3241",
+                        "pct_oe": "31.1"
+                    },
+                    {
                         "industry": "Iron And Steel Mills And Ferroalloy Manufacturing",
                         "naics_code": "3311",
                         "pct_oe": "-22.7"
-                    },
-                    {
-                        "industry": "Other Fabricated Metal Product Manufacturing",
-                        "naics_code": "3329",
-                        "pct_oe": "-57.2"
                     }
                 ],
                 "naics_code": "31-33",
@@ -11824,6 +11976,11 @@
                         "pct_oe": "23.8"
                     },
                     {
+                        "industry": "Printing And Related Support Activities",
+                        "naics_code": "3231",
+                        "pct_oe": "12.8"
+                    },
+                    {
                         "industry": "Boiler, Tank, And Shipping Container Manufacturing",
                         "naics_code": "3324",
                         "pct_oe": "5.6"
@@ -11832,11 +11989,6 @@
                         "industry": "Beverage Manufacturing",
                         "naics_code": "3121",
                         "pct_oe": "-15.8"
-                    },
-                    {
-                        "industry": "Bakeries And Tortilla Manufacturing",
-                        "naics_code": "3118",
-                        "pct_oe": "-17.9"
                     }
                 ],
                 "naics_code": "31-33",
@@ -12618,9 +12770,14 @@
                         "pct_oe": "-19.5"
                     },
                     {
-                        "industry": "Ship And Boat Building",
-                        "naics_code": "3366",
-                        "pct_oe": "-94.1"
+                        "industry": "Cement And Concrete Product Manufacturing",
+                        "naics_code": "3273",
+                        "pct_oe": "-64.3"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-87.6"
                     }
                 ],
                 "naics_code": "31-33",
@@ -12955,7 +13112,18 @@
                 "sector": "Public Administration"
             },
             {
-                "industries": [],
+                "industries": [
+                    {
+                        "industry": "Petroleum And Coal Products Manufacturing",
+                        "naics_code": "3241",
+                        "pct_oe": "295.8"
+                    },
+                    {
+                        "industry": "Sawmills And Wood Preservation",
+                        "naics_code": "3211",
+                        "pct_oe": "-71.4"
+                    }
+                ],
                 "naics_code": "31-33",
                 "residual": -4,
                 "sector": "Manufacturing"
@@ -13593,6 +13761,16 @@
                         "pct_oe": "1019.4"
                     },
                     {
+                        "industry": "Glass And Glass Product Manufacturing",
+                        "naics_code": "3272",
+                        "pct_oe": "-15.8"
+                    },
+                    {
+                        "industry": "Other Wood Product Manufacturing",
+                        "naics_code": "3219",
+                        "pct_oe": "-48.5"
+                    },
+                    {
                         "industry": "Foundries",
                         "naics_code": "3315",
                         "pct_oe": "-48.6"
@@ -13601,16 +13779,6 @@
                         "industry": "Fruit And Vegetable Preserving And Specialty Food Manufacturing",
                         "naics_code": "3114",
                         "pct_oe": "-64.4"
-                    },
-                    {
-                        "industry": "Agriculture, Construction, And Mining Machinery Manufacturing",
-                        "naics_code": "3331",
-                        "pct_oe": "-72.9"
-                    },
-                    {
-                        "industry": "Architectural And Structural Metals Manufacturing",
-                        "naics_code": "3323",
-                        "pct_oe": "-83.4"
                     }
                 ],
                 "naics_code": "31-33",
