@@ -10,9 +10,9 @@ def query_db(conn_string, sql_string, parameter_tuple = ()):
 			return cur.fetchall()
 
 
-db = 'bls' # raw_input("Enter name of target database:")
-user = 'old\ JG' # raw_input("Enter your PostgreSQL username (this might just be 'postgres'):")
-password = '' # getpass.getpass("Enter your PostgreSQL user password:")
+db =  raw_input("Enter name of target database:")
+user = raw_input("Enter your PostgreSQL username (this might just be 'postgres'):")
+password = getpass.getpass("Enter your PostgreSQL user password:")
 
 conn_string = "dbname=%(db)s user=%(user)s password=%(password)s" % {"db": db, "user": user, "password":password}
 
