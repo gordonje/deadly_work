@@ -59,6 +59,7 @@ for state in states:
 							  a.cew_code
 							, a.cfoi_name
 							, ROUND(b.residual)::int
+							, a.sort_order
 						FROM industries a
 						JOIN states_industries b
 						ON a.cew_code = b.industry_code
@@ -74,6 +75,7 @@ for state in states:
 					'naics_code': i[0],
 					'sector': i[1], 
 					'residual': i[2],
+					'sort_order':i[3],
 					'industries': []
 				}
 
