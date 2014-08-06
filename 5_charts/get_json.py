@@ -57,6 +57,7 @@ for state in states:
 
 	sector_query = '''SELECT 
 							  a.cew_code
+							, COALESCE(a.display_name, a.cfoi_name)
 							, a.cfoi_name
 							, ROUND(b.residual)::int
 							, a.sort_order
@@ -73,9 +74,10 @@ for state in states:
 
 		sector = {				
 					'naics_code': i[0],
-					'sector': i[1], 
-					'residual': i[2],
-					'sort_order':i[3],
+					'sector': i[1],
+					'full_name': i[2], 
+					'residual': i[3],
+					'sort_order':i[4],
 					'industries': []
 				}
 
