@@ -66,7 +66,7 @@ for state in states:
 						AND a.cew_code NOT LIKE '1%%'
 						AND b.state_code = '%s' 
 						AND b.residual IS NOT NULL
-						ORDER BY b.residual DESC;''' % state['state_code']
+						ORDER BY a.sort_order DESC;''' % state['state_code']
 
 	for i in query_db(conn_string, sector_query):
 
