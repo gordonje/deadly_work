@@ -72,7 +72,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 70,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -182,7 +182,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 28,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -218,7 +218,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -9,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -346,7 +346,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 36,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -401,7 +401,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -4,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -437,7 +437,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": 1,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -533,7 +533,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 37,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -632,7 +632,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -46,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -683,7 +683,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": 1,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -828,7 +828,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 62,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -953,7 +953,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 7,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -1042,7 +1042,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 4,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -1179,7 +1179,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -187,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -1344,7 +1344,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -61,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -1482,7 +1482,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -2,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -1672,7 +1672,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 35,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -1767,7 +1767,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -8,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -1827,7 +1827,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": 2,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -1968,7 +1968,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -23,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -2058,7 +2058,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 5,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -2107,7 +2107,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -19,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -2229,7 +2229,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -10,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -2315,7 +2315,7 @@
                 "industries": [],
                 "naics_code": "48-49",
                 "residual": -15,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -2331,7 +2331,7 @@
                 "industries": [],
                 "naics_code": "56",
                 "residual": -13,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -2425,7 +2425,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -1,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -2595,7 +2595,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 164,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -2749,7 +2749,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 0,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -2934,7 +2934,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -6,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -3074,7 +3074,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 0,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -3160,7 +3160,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -14,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -3290,7 +3290,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -20,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -3347,7 +3347,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 6,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -3361,7 +3361,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -4,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -3425,7 +3425,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 10,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -3461,7 +3461,7 @@
                 "industries": [],
                 "naics_code": "56",
                 "residual": -12,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -3565,7 +3565,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -101,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -3720,7 +3720,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -87,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -3863,7 +3863,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -1,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -4043,7 +4043,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 38,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -4198,7 +4198,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 1,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -4300,7 +4300,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -4,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -4466,7 +4466,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 21,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -4591,7 +4591,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -10,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -4690,7 +4690,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -8,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -4836,7 +4836,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 22,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -4966,7 +4966,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -4,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -5026,7 +5026,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 12,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -5152,7 +5152,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 52,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -5241,7 +5241,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 24,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -5310,7 +5310,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 7,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -5439,7 +5439,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 125,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -5574,7 +5574,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 36,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -5783,7 +5783,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -3,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -5844,7 +5844,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -3,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -5886,7 +5886,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -3,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -5980,7 +5980,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 9,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -6095,7 +6095,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 9,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -6174,7 +6174,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -17,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -6292,7 +6292,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -66,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -6407,7 +6407,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -29,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -6483,7 +6483,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -20,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -6644,7 +6644,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -67,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -6779,7 +6779,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -43,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -6889,7 +6889,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -2,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -7068,7 +7068,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -79,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -7142,7 +7142,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -33,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -7172,7 +7172,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -18,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -7269,7 +7269,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 84,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -7358,7 +7358,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 25,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -7388,7 +7388,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -3,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -7494,7 +7494,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 15,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -7624,7 +7624,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 7,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -7727,7 +7727,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 16,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -7847,7 +7847,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 40,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -7912,7 +7912,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -6,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -8058,7 +8058,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -1,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -8137,7 +8137,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -7,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -8189,7 +8189,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -7,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -8314,7 +8314,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -10,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -8388,7 +8388,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 4,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -8505,7 +8505,7 @@
                 "industries": [],
                 "naics_code": "48-49",
                 "residual": -24,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -8541,7 +8541,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -9,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -8569,7 +8569,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -5,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -8663,7 +8663,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -115,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -8803,7 +8803,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -29,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -8917,7 +8917,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -26,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -9058,7 +9058,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 48,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -9132,7 +9132,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -2,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -9256,7 +9256,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -236,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -9416,7 +9416,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -52,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -9560,7 +9560,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -44,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -9745,7 +9745,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 7,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -9870,7 +9870,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 25,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -9927,7 +9927,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -20,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -10055,7 +10055,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 4,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -10097,7 +10097,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -5,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -10254,7 +10254,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -87,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -10414,7 +10414,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -35,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -10563,7 +10563,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -3,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -10753,7 +10753,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 114,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -10868,7 +10868,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -2,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -10953,7 +10953,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -11,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -11108,7 +11108,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 9,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -11193,7 +11193,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -31,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -11234,7 +11234,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -7,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -11360,7 +11360,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -22,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -11510,7 +11510,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 56,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -11638,7 +11638,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 1,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -11838,7 +11838,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -14,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -11934,7 +11934,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 3,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -12006,7 +12006,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -4,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -12062,7 +12062,7 @@
                 "industries": [],
                 "naics_code": "48-49",
                 "residual": -16,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -12181,7 +12181,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 55,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -12286,7 +12286,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 26,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -12355,7 +12355,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -10,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -12457,7 +12457,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -2,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -12552,7 +12552,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -2,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -12707,7 +12707,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -9,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -12862,7 +12862,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -1,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -12986,7 +12986,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 3,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -13159,7 +13159,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 141,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -13324,7 +13324,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 21,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -13523,7 +13523,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -2,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -13698,7 +13698,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 6,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -13762,7 +13762,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -9,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -13811,7 +13811,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 21,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -13912,7 +13912,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -14,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -14034,7 +14034,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 73,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -14184,7 +14184,7 @@
                 ],
                 "naics_code": "56",
                 "residual": 15,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -14284,7 +14284,7 @@
                 ],
                 "naics_code": "62",
                 "residual": -7,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -14488,7 +14488,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -46,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -14571,7 +14571,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -10,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -14615,7 +14615,7 @@
                 "industries": [],
                 "naics_code": "62",
                 "residual": -12,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -14725,7 +14725,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 60,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -14830,7 +14830,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -12,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -14895,7 +14895,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 3,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -15046,7 +15046,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": -65,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
@@ -15156,7 +15156,7 @@
                 ],
                 "naics_code": "56",
                 "residual": -32,
-                "sector": "Administrative and waste services",
+                "sector": "Public services",
                 "sort_order": 12
             },
             {
@@ -15230,7 +15230,7 @@
                 ],
                 "naics_code": "62",
                 "residual": 6,
-                "sector": "Health Care And Social Assistance",
+                "sector": "Health and Social Care ",
                 "sort_order": 6
             },
             {
@@ -15352,7 +15352,7 @@
                 ],
                 "naics_code": "48-49",
                 "residual": 67,
-                "sector": "Transportation and warehousing",
+                "sector": "Transport and Warehousing",
                 "sort_order": 17
             },
             {
