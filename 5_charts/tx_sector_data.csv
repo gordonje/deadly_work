@@ -1,0 +1,19 @@
+naics_code,sector_display_name,sector_full_name,emplvl,fatals_sum,residual,sort_order
+23,Construction,Construction,622901,1192,218,18
+48-49,Transport and Warehousing,Transportation and warehousing,415574,802,141,17
+92,Public Administration,Public Administration,422826,267,87,16
+31-33,Manufacturing,Manufacturing,886012,327,67,15
+44-45,Retail trade,Retail trade,1146011,290,40,14
+81,Other Services,"Other Services, Except Public Administration",289508,150,26,13
+56,Public services,Administrative and waste services,640828,323,21,12
+54,Professional Services,Professional And Technical Services,545408,79,21,11
+72,Hospitality and Food Services,Accommodation And Food Services,867725,142,20,10
+53,Real Estate,Real Estate And Rental And Leasing,179563,74,10,9
+71,Entertainment,"Arts, Entertainment, And Recreation",126660,63,10,8
+52,Finance And Insurance,Finance And Insurance,442432,34,6,7
+62,"Health and Social Care ",Health Care And Social Assistance,1242516,94,-2,6
+42,Wholesale Trade,Wholesale Trade,499858,171,-3,5
+51,Information,Information,221179,36,-5,4
+61,Education,Educational Services,1049618,72,-5,3
+22,Utilities,Utilities,77969,30,-17,2
+21,Mining,Mining,199114,432,-70,1

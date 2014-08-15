@@ -59,7 +59,7 @@ for state in states:
 							  a.cew_code
 							, COALESCE(a.display_name, a.cfoi_name)
 							, a.cfoi_name
-							, ROUND(b.residual)::int
+							, ROUND(b.residual)::int / 10
 							, a.sort_order
 						FROM industries a
 						JOIN states_industries b
@@ -67,8 +67,7 @@ for state in states:
 						WHERE a.display_level = 3 
 						AND a.cew_code NOT LIKE '1%%'
 						AND b.state_code = '%s' 
-						AND b.residual IS NOT NULL
-						ORDER BY a.sort_order DESC;''' % state['state_code']
+						ORDER BY a.sort_order;''' % state['state_code']
 
 	for i in query_db(conn_string, sector_query):
 
@@ -101,7 +100,7 @@ for state in states:
 		industry_query = '''SELECT 
 								  a.cew_code
 								, a.cfoi_name
-								, ROUND((b.residual / b.expect_fatals) * 100, 1)
+								, ROUND((b.residual / b.expect_fatals) * 100, 1) / 10
 							FROM industries a
 							JOIN states_industries b
 							ON a.cew_code = b.industry_code
