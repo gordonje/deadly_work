@@ -1,5 +1,20 @@
-naics_code,industry,emplvl,fatals_sum,residual
-23821,Electrical Contractors,71356,121,56
-23816,Roofing Contractors,12118,109,52
-23813,Framing Contractors,3297,30,24
-23814,Masonry Contractors,14145,20,-4
+naics_code,sector_display_name,sector_full_name,emplvl,fatals,residual,sort_order
+23,Construction,Construction,622901,119,22,18
+48-49,Transport and Warehousing,Transportation and warehousing,415574,80,14,17
+92,Public Administration,Public Administration,422826,26,9,16
+31-33,Manufacturing,Manufacturing,886012,32,7,15
+44-45,Retail trade,Retail trade,1146011,29,4,14
+81,Other Services,"Other Services, Except Public Administration",289508,15,3,13
+56,Public services,Administrative and waste services,640828,32,2,12
+54,Professional Services,Professional And Technical Services,545408,7,2,11
+72,Hospitality and Food Services,Accommodation And Food Services,867725,14,2,10
+53,Real Estate,Real Estate And Rental And Leasing,179563,7,1,9
+71,Entertainment,"Arts, Entertainment, And Recreation",126660,6,1,8
+52,Finance And Insurance,Finance And Insurance,442432,3,1,7
+62,"Health and Social Care ",Health Care And Social Assistance,1242516,9,0,6
+42,Wholesale Trade,Wholesale Trade,499858,17,0,5
+51,Communications and Information Technology,Information,221179,3,0,4
+61,Education,Educational Services,1049618,7,-1,3
+22,Utilities,Utilities,77969,3,-2,2
+21,Mining,Mining,199114,43,-7,1
+55,Management,Management Of Companies And Enterprises,66404,,,0
