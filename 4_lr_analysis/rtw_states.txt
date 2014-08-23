@@ -1,0 +1,25 @@
+state	adopted	enacted	
+Alabama	 	1953
+Arizona	1946	1947
+Arkansas	1944	1947
+Florida	1968	1943
+Georgia	 	1947
+Idaho	 	1985
+Indiana	 	2012
+Iowa	 	1947
+Kansas	1958	 
+Louisiana	 	1976
+Michigan	 	2012
+Mississippi	1960	1954
+Nebraska	1946	1947
+Nevada	1952	1951
+North Carolina	 	1947
+North Dakota	1948	1947
+Oklahoma	2001	2001
+South Carolina	 	1954
+South Dakota	1946	1947
+Tennessee	 	1947
+Texas	 	1993
+Utah	 	1955
+Virginia	 	1947
+Wyoming	 	1963

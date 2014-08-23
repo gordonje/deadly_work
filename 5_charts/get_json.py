@@ -59,7 +59,9 @@ for state in states:
 							  a.cew_code
 							, COALESCE(a.display_name, a.cfoi_name)
 							, a.cfoi_name
-							, ROUND(b.residual)::int / 10
+							, b.emplvl_sum::int / 10
+							, b.fatals_sum::int
+							, ROUND(b.residual)::int
 							, a.sort_order
 						FROM industries a
 						JOIN states_industries b
@@ -67,16 +69,18 @@ for state in states:
 						WHERE a.display_level = 3 
 						AND a.cew_code NOT LIKE '1%%'
 						AND b.state_code = '%s' 
-						ORDER BY a.sort_order;''' % state['state_code']
+						ORDER BY a.sort_order DESC;''' % state['state_code']
 
 	for i in query_db(conn_string, sector_query):
 
 		sector = {				
 					'naics_code': i[0],
 					'sector': i[1],
-					'full_name': i[2], 
-					'residual': i[3],
-					'sort_order':i[4],
+					'full_name': i[2],
+					'emps': i[3],
+					'fatals': i[4], 
+					'residual': i[5],
+					'sort_order':i[6],
 					'industries': []
 				}
 
@@ -100,7 +104,7 @@ for state in states:
 		industry_query = '''SELECT 
 								  a.cew_code
 								, a.cfoi_name
-								, ROUND((b.residual / b.expect_fatals) * 100, 1) / 10
+								, b.fatals_sum::int
 							FROM industries a
 							JOIN states_industries b
 							ON a.cew_code = b.industry_code
@@ -118,7 +122,7 @@ for state in states:
 			sector['industries'].append({
 					  'naics_code': j[0]
 					, 'industry': j[1]
-					, 'pct_oe': str(j[2])
+					, 'fatals': j[2]
 				})
 
 		# append all the sectors with industries to the state

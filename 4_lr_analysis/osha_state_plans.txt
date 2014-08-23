@@ -1,0 +1,26 @@
+State_w_Plan	Is_Public_Sector_only
+Alaska	FALSE
+Arizona	FALSE
+California	FALSE
+Connecticut	TRUE
+Hawaii	FALSE
+Illinois	TRUE
+Indiana	FALSE
+Iowa	FALSE
+Kentucky	FALSE
+Maryland	FALSE
+Michigan	FALSE
+Minnesota	FALSE
+Nevada	FALSE
+New Jersey	TRUE
+New Mexico	FALSE
+New York	TRUE
+North Carolina	FALSE
+Oregon	FALSE
+South Carolina	FALSE
+Tennessee	FALSE
+Utah	FALSE
+Vermont	FALSE
+Virginia	FALSE
+Washington	FALSE
+Wyoming	FALSE

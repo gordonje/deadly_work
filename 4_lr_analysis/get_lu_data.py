@@ -2,10 +2,11 @@ import getpass
 import psycopg2
 import requests
 
+db = raw_input("Enter name of target database:")
 user = raw_input("Enter your PostgreSQL username (this might just be 'postgres'):")
 password = getpass.getpass("Enter your PostgreSQL user password:")
 
-conn = psycopg2.connect("dbname=bls user=%(user)s password=%(password)s" % {"user": user, "password":password})
+conn = psycopg2.connect("dbname=%(db)s user=%(user)s password=%(password)s" % {"db": db, "user": user, "password":password})
 cur = conn.cursor()
 
 session = requests.Session()
@@ -132,6 +133,9 @@ if has_series == None:
                              values[15].strip(), values[16].strip(), values[17].strip(), values[18].strip(), values[19].strip(),
                              values[20].strip(), values[21].strip()])
 			conn.commit()
+
+
+# check to see if the columns are on the areas table, then add them.  
 
 
 cur.close()

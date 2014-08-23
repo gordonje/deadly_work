@@ -1,6 +1,8 @@
 Unadjusted Fatality Rates
 ===================================
 
+After [importing and combining fatality and employment numbers](https://github.com/gordonje/deadly_work/tree/master/1_db_build), we then calculated fatal unadjusted fatality rates at multiple aggregation levels.
+
 BLS Data Non-Disclosure
 --------------------
 

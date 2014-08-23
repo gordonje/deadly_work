@@ -1,5 +1,5 @@
 naics_code,industry,emplvl,fatals,residual
-23712,Oil And Gas Pipeline And Related Structures Construction,25540,7,2
-42381,Construction And Mining (Except Oil Well) Machinery And Equipment Merchant Wholesalers,6897,0,0
-33313,Mining And Oil And Gas Field Machinery Manufacturing,38589,0,-1
-21111,Oil And Gas Extraction,77374,4,-5
+23712,Oil And Gas Pipeline And Related Structures Construction,25540,71,23
+42381,Construction And Mining (Except Oil Well) Machinery And Equipment Merchant Wholesalers,6897,3,-1
+33313,Mining And Oil And Gas Field Machinery Manufacturing,38589,7,-12
+21111,Oil And Gas Extraction,77374,47,-49

@@ -13,11 +13,11 @@ Generally (so far) the process has involved:
 *	The fatality rate for each industry across all states
 *	The fatality rate for a given industry in each state
 
-With this third fatality rate, we rank states from highest to lowest fatality rate within each industry, then countthe number of industries in which each state had one of the five worst fatality rates and the number of times it had the worst fatality rate (outlined further in [2_fatality_rates](https://github.com/gordonje/deadly_work/tree/master/2_fatality_rates)).
+With this third fatality rate, we rank states from highest to lowest fatality rate within each industry, then count the number of industries in which each state had one of the five worst fatality rates and the number of times it had the worst fatality rate (outlined further in [2_fatality_rates](https://github.com/gordonje/deadly_work/tree/master/2_fatality_rates)).
 
-3.	For each industry, calculating the expected number of deaths in a given state based on the industry's national fatality rate and the sum of the state's workers in that industry. Then, for each state, calculating a risk-adjusted fatality rate (outlined further in [3_oe_analysis](https://github.com/gordonje/deadly_work/tree/master/3_oe_analysis)).
+3.	For each industry, calculating the expected number of deaths in a given state based on the industry's national fatality rate and the sum of the state's workers in that industry. Then, for each state, adding up the expected deaths across all industries and calculating a risk-adjusted fatality rate (outlined further in [3_oe_analysis](https://github.com/gordonje/deadly_work/tree/master/3_oe_analysis)).
 
-4.	Adding to our database whatever state-level factors we suspected could correlate with our risk-adjusted fatality rate, then running linear regressions in order to test for any statistically significant correlations (outlined further in [4_lr_analysis](https://github.com/gordonje/deadly_work/tree/master/4_lr_analysis)).	
+4.	Adding to our database whatever state-level factors we suspected could correlate with our risk-adjusted fatality rate, then running linear regressions in order to test for any statistically significant correlations (outlined further in [4_lr_analysis](https://github.com/gordonje/deadly_work/tree/master/4_lr_analysis)).
 
 Dependencies
 ------------
