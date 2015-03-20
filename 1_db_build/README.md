@@ -44,15 +44,15 @@ Joining Fatality and Employment Data
 
 We started with the relevant look-up tables.
 
-First, we [joined the areas](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_areas.sql) into a single table that contains a record for each state and one for the national level. Note that, in the case of New York State, the CFOI area_code labeled 'New York State (except NYC)' lines up to the CEW area_fips labeled 'New York -- Statewide', which does include NYC. A CFOI economist that the correct alignment is with area_code 'S69', labeled 'New York State and New York City'.
+First, we [joined the areas](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_areas.sql) into a single table that contains a record for each state and one for the national level. Note that, in the case of New York State, the CFOI area_code labeled 'New York State (except NYC)' lines up to the CEW area_fips labeled 'New York -- Statewide', which does include NYC. A CFOI economist told us that the correct alignment is with area_code 'S69', labeled 'New York State and New York City'.
 
 We also add state abbrevations from a [translator table](https://github.com/gordonje/deadly_work/blob/master/1_db_build/state_fips_to_abbrv.txt) in this repo. This will be helpful when joining to other data sources down the road.
 
-Then, we [joined industries](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_industries.sql) into a single table that contains only the industries included in both CFOI and CEW. Note that industry names in fi and fw use different character casing (e.g., 'Specialty trade contractors' versus 'Specialty Trade Contractors'), so we use the INITCAP() function to make PostgreSQL ignore this these distinctions.
+Then, we [joined industries](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_industries.sql) into a single table that contains only the industries included in both CFOI and CEW. Note that industry names in fi and fw use different character casing (e.g., 'Specialty trade contractors' versus 'Specialty Trade Contractors'), so we use the INITCAP() function to make PostgreSQL ignore these distinctions.
 
 The industry codes are nested, with very specific industries (e.g., "Natural gas liquid extraction" coded "211112") fitting under more general ones (e.g., "Oil and gas extraction" coded "211XXX"), and the number workplace fatalities counted at the lower detail levels are included at the higher details. However, because of [BLS' non-disclosure rules](https://github.com/gordonje/deadly_work/blob/master/2_fatality_rates/README.md#bls-data-non-disclosure) the totals at the higher industry detail level are greater than the sums at the lower levels.
 
-The CFOI and QCEW industries intersect fairly neatly at the 3-digit NAICS level, but we had to create our own [translator for the industry sectors, supersectors and domains]().
+The CFOI and QCEW industries intersect fairly neatly at the 3-digit NAICS level, but we had to create our own [translator for the industry sectors, supersectors and domains](https://github.com/gordonje/deadly_work/blob/master/1_build/high_level_industries_translator.csv).
 
 We then used the aligned areas and industries to [join the annual fatalities counts and employment levels](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/join_cfoi_to_cew.sql) into a single table. A couple of things to note about this query:
 
@@ -62,6 +62,6 @@ We then used the aligned areas and industries to [join the annual fatalities cou
 
 We also add the to areas table the [count of industries](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/count_all_industries_for_states.sql) in each area and the [count of industries with fatalities](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/count_fatal_industries_for_states.sql) in each area.
 
-We also add the to industries table the [count of states](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/count_all_states_for_industries.sql) with workers in each industry and the [count of states with fatalities](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/count_fatal_states_for_industries.sql) in each industry.
+We also add to the industries table the [count of states](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/count_all_states_for_industries.sql) with workers in each industry and the [count of states with fatalities](https://github.com/gordonje/deadly_work/blob/master/1_db_build/sql/count_fatal_states_for_industries.sql) in each industry.
 
 The [join_cfoi_to_cew.py](https://github.com/gordonje/deadly_work/blob/master/1_db_build/join_cfoi_to_cew.py) script will create and populate the joined tables for you and add the columns mentioned above.
